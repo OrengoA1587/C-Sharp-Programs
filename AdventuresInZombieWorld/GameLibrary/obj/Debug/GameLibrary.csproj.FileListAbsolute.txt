@@ -1,0 +1,6 @@
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\GameLibrary\bin\Debug\GameLibrary.dll
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\GameLibrary\bin\Debug\GameLibrary.pdb
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\GameLibrary\obj\Debug\GameLibrary.csproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\GameLibrary\obj\Debug\GameLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\GameLibrary\obj\Debug\GameLibrary.dll
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\GameLibrary\obj\Debug\GameLibrary.pdb

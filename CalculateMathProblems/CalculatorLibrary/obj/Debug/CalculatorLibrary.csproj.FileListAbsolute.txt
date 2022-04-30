@@ -1,0 +1,12 @@
+C:\Users\oreng\source\repos\CalculateMathProblems\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll
+C:\Users\oreng\source\repos\CalculateMathProblems\CalculatorLibrary\bin\Debug\CalculatorLibrary.pdb
+C:\Users\oreng\source\repos\CalculateMathProblems\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\CalculateMathProblems\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oreng\source\repos\CalculateMathProblems\CalculatorLibrary\obj\Debug\CalculatorLibrary.dll
+C:\Users\oreng\source\repos\CalculateMathProblems\CalculatorLibrary\obj\Debug\CalculatorLibrary.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\CalculatorLibrary\bin\Debug\CalculatorLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\CalculatorLibrary\bin\Debug\CalculatorLibrary.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\CalculatorLibrary\obj\Debug\CalculatorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\CalculatorLibrary\obj\Debug\CalculatorLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\CalculatorLibrary\obj\Debug\CalculatorLibrary.pdb

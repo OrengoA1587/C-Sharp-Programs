@@ -1,0 +1,1 @@
+Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\oreng\source\repos\AdventuresInZombieWorld\ConsoleUI\GameDB.mdf;Integrated Security=True

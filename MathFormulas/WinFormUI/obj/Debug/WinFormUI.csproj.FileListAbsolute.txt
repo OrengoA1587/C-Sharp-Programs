@@ -1,0 +1,32 @@
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\bin\Debug\WinFormUI.exe.config
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\bin\Debug\WinFormUI.exe
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\bin\Debug\WinFormUI.pdb
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.csproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.Form1.resources
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.csproj.CoreCompileInputs.cache
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.exe
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.pdb
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.AreaRecSquare.resources
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.AreaTriangle.resources
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.AreaOfCircle.resources
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\bin\Debug\Database1.mdf
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\bin\Debug\Database1_log.ldf
+C:\Users\oreng\source\repos\MathFormulas\WinFormUI\obj\Debug\WinFormUI.RsaEncryption.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\bin\Debug\Database1.mdf
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\bin\Debug\Database1_log.ldf
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\bin\Debug\WinFormUI.exe.config
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\bin\Debug\WinFormUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\bin\Debug\WinFormUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.AreaOfCircle.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.AreaRecSquare.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.AreaTriangle.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.RsaEncryption.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.Form1.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\MathFormulas\WinFormUI\obj\Debug\WinFormUI.pdb

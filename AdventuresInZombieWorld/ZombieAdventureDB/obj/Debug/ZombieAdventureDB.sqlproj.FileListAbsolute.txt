@@ -1,0 +1,6 @@
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\bin\Debug\ZombieAdventureDB.dacpac
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\bin\Debug\ZombieAdventureDB.dll
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\bin\Debug\ZombieAdventureDB.pdb
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.sqlproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.dll
+C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.pdb

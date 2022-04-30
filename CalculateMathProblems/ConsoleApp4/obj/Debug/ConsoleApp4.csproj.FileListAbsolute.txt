@@ -1,0 +1,24 @@
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\bin\Debug\CalculatorLibrary.dll
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\bin\Debug\CalculatorLibrary.pdb
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CopyComplete
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\bin\Debug\Database1.mdf
+C:\Users\oreng\source\repos\CalculateMathProblems\ConsoleApp4\bin\Debug\Database1_log.ldf
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\bin\Debug\Database1.mdf
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\bin\Debug\Database1_log.ldf
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\bin\Debug\ConsoleApp4.exe.config
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\bin\Debug\ConsoleApp4.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\bin\Debug\ConsoleApp4.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\bin\Debug\CalculatorLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\bin\Debug\CalculatorLibrary.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.csproj.CopyComplete
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\CalculateMathProblems\ConsoleApp4\obj\Debug\ConsoleApp4.pdb
