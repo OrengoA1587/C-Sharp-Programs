@@ -10,15 +10,18 @@ using System.Windows.Forms;
 
 namespace ConsoleUI
 {
+    
     public partial class MainMenu : Form
     {
+        WMPLib.WindowsMediaPlayer player = new WMPLib.WindowsMediaPlayer();
+
         LoginForm loginFM = new LoginForm();
         CreatePlayerForm createPlayer = new CreatePlayerForm();
 
         public MainMenu()
         {
             InitializeComponent();
-             
+            player.URL = @"C:\Users\oreng\Downloads\zapsplat_science_fiction_computer_button_press_003_83252.mp3";
 
         }
 
@@ -26,11 +29,22 @@ namespace ConsoleUI
 
         private void exit_button_Click(object sender, EventArgs e)
         {
-            this.Close();
+            player.controls.play();
+            DialogResult result = MessageBox.Show("Do you wish to continue?", "Warning",
+                MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
+            if(result == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            else
+            {
+
+            }
         }
 
         private void startAdventure_button_Click(object sender, EventArgs e)
         {
+            player.controls.play();
             //startAdventure_button.Visible = false;
             //setting_button.Visible = false;
             //exit_button.Visible = false;
@@ -43,6 +57,7 @@ namespace ConsoleUI
 
         private void continueAdventure_button_Click(object sender, EventArgs e)
         {
+            player.controls.play();
             loginFM.ShowDialog();
         }
 

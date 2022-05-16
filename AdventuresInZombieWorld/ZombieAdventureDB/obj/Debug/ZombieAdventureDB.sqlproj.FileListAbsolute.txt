@@ -4,3 +4,13 @@ C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\bin\Debug\
 C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.sqlproj.AssemblyReference.cache
 C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.dll
 C:\Users\oreng\source\repos\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\bin\Debug\ZombieAdventureDB.dacpac
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\bin\Debug\ZombieAdventureDB.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\bin\Debug\ZombieAdventureDB.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.sqlproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\ZombieAdventureDB.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\Model.xml
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\refactor.xml
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\postdeploy.sql
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ZombieAdventureDB\obj\Debug\predeploy.sql

@@ -26,3 +26,33 @@ C:\Users\oreng\source\repos\AdventuresInZombieWorld\ConsoleUI\bin\Debug\GameDB.m
 C:\Users\oreng\source\repos\AdventuresInZombieWorld\ConsoleUI\bin\Debug\GameDB_log.ldf
 C:\Users\oreng\source\repos\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.LoginForm.resources
 C:\Users\oreng\source\repos\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.MainMenu.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\GameDB.mdf
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\GameDB_log.ldf
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\ConsoleUI.exe.config
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\ConsoleUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\ConsoleUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\GameLibrary.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\ZombieAdventureDB.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\GameLibrary.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\ZombieAdventureDB.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.CreatePlayerForm.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.LoginForm.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.MainMenu.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.Properties.Resources.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.StartAdventureForm.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.StartForm.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.csproj.GenerateResource.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.csproj.CopyComplete
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\Interop.WMPLib.dll
+C:\Users\oreng\OneDrive\Documents\GitHub\C# Programs\Programs\AdventuresInZombieWorld\ConsoleUI\obj\Debug\ConsoleUI.csproj.ResolveComReference.cache

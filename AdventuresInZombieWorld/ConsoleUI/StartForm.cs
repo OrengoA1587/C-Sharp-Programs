@@ -7,15 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Media;
 namespace ConsoleUI
 {
     public partial class StartForm : Form
     {
+        WMPLib.WindowsMediaPlayer player = new WMPLib.WindowsMediaPlayer();
         public StartForm()
         {
             
             InitializeComponent();
+
+            player.URL = @"C:\Users\oreng\Downloads\zapsplat_sound_design_cinematic_musical_guitar_plucked_long_serious_dark_tension_drama_80203.mp3";
+            player.controls.play();
         }
 
         private void start_button_Click(object sender, EventArgs e)
