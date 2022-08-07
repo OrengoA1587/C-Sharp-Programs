@@ -1,0 +1,10 @@
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\bin\Debug\EncryptAndDecryptUseInput.exe.config
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\bin\Debug\EncryptAndDecryptUseInput.exe
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\bin\Debug\EncryptAndDecryptUseInput.pdb
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\obj\Debug\EncryptAndDecryptUseInput.csproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\obj\Debug\EncryptAndDecryptUseInput.Properties.Resources.resources
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\obj\Debug\EncryptAndDecryptUseInput.csproj.GenerateResource.cache
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\obj\Debug\EncryptAndDecryptUseInput.csproj.CoreCompileInputs.cache
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\obj\Debug\EncryptAndDecryptUseInput.exe
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\obj\Debug\EncryptAndDecryptUseInput.pdb
+C:\Users\oreng\source\repos\EncryptAndDecryptUseInput\EncryptAndDecryptUseInput\obj\Debug\EncryptAndDecryptUseInput.Form1.resources

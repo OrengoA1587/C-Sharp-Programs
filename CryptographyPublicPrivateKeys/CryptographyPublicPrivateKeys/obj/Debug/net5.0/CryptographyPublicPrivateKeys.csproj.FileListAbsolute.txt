@@ -1,0 +1,16 @@
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\CryptographyPublicPrivateKeys.csproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\CryptographyPublicPrivateKeys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\CryptographyPublicPrivateKeys.AssemblyInfoInputs.cache
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\CryptographyPublicPrivateKeys.AssemblyInfo.cs
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\CryptographyPublicPrivateKeys.csproj.CoreCompileInputs.cache
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\bin\Debug\net5.0\CryptographyPublicPrivateKeys.exe
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\bin\Debug\net5.0\CryptographyPublicPrivateKeys.deps.json
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\bin\Debug\net5.0\CryptographyPublicPrivateKeys.runtimeconfig.json
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\bin\Debug\net5.0\CryptographyPublicPrivateKeys.runtimeconfig.dev.json
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\bin\Debug\net5.0\CryptographyPublicPrivateKeys.dll
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\bin\Debug\net5.0\ref\CryptographyPublicPrivateKeys.dll
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\bin\Debug\net5.0\CryptographyPublicPrivateKeys.pdb
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\CryptographyPublicPrivateKeys.dll
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\ref\CryptographyPublicPrivateKeys.dll
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\CryptographyPublicPrivateKeys.pdb
+C:\Users\oreng\source\repos\CryptographyPublicPrivateKeys\CryptographyPublicPrivateKeys\obj\Debug\net5.0\CryptographyPublicPrivateKeys.genruntimeconfig.cache

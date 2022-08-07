@@ -1,0 +1,10 @@
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\bin\Debug\WinFormUI.exe.config
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\bin\Debug\WinFormUI.exe
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\bin\Debug\WinFormUI.pdb
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\obj\Debug\WinFormUI.csproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\obj\Debug\WinFormUI.Form1.resources
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\obj\Debug\WinFormUI.csproj.CoreCompileInputs.cache
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\obj\Debug\WinFormUI.exe
+C:\Users\oreng\source\repos\CryptographyPractice\WinFormUI\obj\Debug\WinFormUI.pdb
