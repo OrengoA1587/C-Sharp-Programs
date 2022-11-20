@@ -115,22 +115,22 @@ namespace WinformUI
 
         private void on_button_MouseHover(object sender, EventArgs e)
         {
-             on_button.ForeColor = Color.Red;
+             on_button.BackColor = Color.LightGreen;
         }
 
         private void on_button_MouseLeave(object sender, EventArgs e)
         {
-            on_button.ForeColor = Color.Black;
+            on_button.BackColor = Color.WhiteSmoke;
         }
 
         private void off_button_MouseHover(object sender, EventArgs e)
         {
-            off_button.ForeColor = Color.Red;
+            off_button.BackColor = Color.LightCoral;
         }
 
         private void off_button_MouseLeave(object sender, EventArgs e)
         {
-            off_button.ForeColor = Color.Black;
+            off_button.BackColor = Color.WhiteSmoke;
         }
 
         private void complete_button_Click(object sender, EventArgs e)
