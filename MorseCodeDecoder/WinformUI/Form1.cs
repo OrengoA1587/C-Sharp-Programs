@@ -14,6 +14,7 @@ namespace WinformUI
 {
     public partial class Form1 : Form
     {
+        List<string> decodedList = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -86,7 +87,7 @@ namespace WinformUI
                 }
                 catch(Exception e)
                 {
-                    decode_textBox.Text = "Invalid Code";
+                    displayCode_textBox.Text = "Invalid Input! Possible Deciphered Text: ";
                 } 
             }
             foreach (var element in decodeList)
@@ -100,8 +101,9 @@ namespace WinformUI
             displayCode_textBox.AppendText(",");
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void reset_button_Click(object sender, EventArgs e)
         {
+            decodedList.Add(decode_textBox.Text + " ");
             displayCode_textBox.Clear();
             decode_textBox.Clear();
         }
@@ -129,6 +131,61 @@ namespace WinformUI
         private void off_button_MouseLeave(object sender, EventArgs e)
         {
             off_button.ForeColor = Color.Black;
+        }
+
+        private void complete_button_Click(object sender, EventArgs e)
+        {
+            foreach (var element in decodedList)
+            {
+                completedMessage_textBox.AppendText(element);
+            }
+        }
+
+        private void resetCompleteTextBox_Click(object sender, EventArgs e)
+        {
+            decodedList.Clear();
+            completedMessage_textBox.Clear();
+        }
+
+        private void send_button_MouseHover(object sender, EventArgs e)
+        {
+            send_button.BackColor = Color.LightGreen;
+        }
+
+        private void send_button_MouseLeave(object sender, EventArgs e)
+        {
+            send_button.BackColor = Color.WhiteSmoke;
+        }
+
+        private void reset_button_MouseHover(object sender, EventArgs e)
+        {
+            reset_button.BackColor = Color.LightCoral;
+        }
+
+        private void reset_button_MouseLeave(object sender, EventArgs e)
+        {
+            reset_button.BackColor = Color.WhiteSmoke;
+        }
+
+        private void complete_button_MouseHover(object sender, EventArgs e)
+        {
+            complete_button.BackColor = Color.LightGreen;
+        }
+
+        private void complete_button_MouseLeave(object sender, EventArgs e)
+        {
+            complete_button.BackColor = Color.WhiteSmoke;
+
+        }
+
+        private void resetCompleteTextBox_MouseHover(object sender, EventArgs e)
+        {
+            resetCompleteTextBox.BackColor = Color.LightCoral;
+        }
+
+        private void resetCompleteTextBox_MouseLeave(object sender, EventArgs e)
+        {
+            resetCompleteTextBox.BackColor = Color.WhiteSmoke;
         }
     }
 }

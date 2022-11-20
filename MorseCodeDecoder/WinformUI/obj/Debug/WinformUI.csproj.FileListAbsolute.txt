@@ -9,3 +9,14 @@ C:\Users\oreng\source\repos\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.cspro
 C:\Users\oreng\source\repos\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.csproj.CoreCompileInputs.cache
 C:\Users\oreng\source\repos\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.exe
 C:\Users\oreng\source\repos\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\bin\Debug\WinformUI.exe.config
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\bin\Debug\WinformUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\bin\Debug\WinformUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.Form1.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.Properties.Resources.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.csproj.GenerateResource.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\MorseCodeDecoder\WinformUI\obj\Debug\WinformUI.pdb
