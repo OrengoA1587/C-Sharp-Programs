@@ -103,15 +103,21 @@ namespace WinformUI
 
         private void reset_button_Click(object sender, EventArgs e)
         {
-            decodedList.Add(decode_textBox.Text + " ");
-            displayCode_textBox.Clear();
-            decode_textBox.Clear();
-        }
+            if(displayCode_textBox.Text == "" && decode_textBox.Text == "")
+            {
+                MessageBox.Show("Decode Box Empty!");
+            }
+            else
+            {
+                decodedList.Add(decode_textBox.Text + " ");
+                displayCode_textBox.Clear();
+                decode_textBox.Clear();
 
-        private void decode_textBox_TextChanged(object sender, EventArgs e)
-        {
+            }
+             
 
         }
+ 
 
         private void on_button_MouseHover(object sender, EventArgs e)
         {
@@ -159,7 +165,7 @@ namespace WinformUI
 
         private void reset_button_MouseHover(object sender, EventArgs e)
         {
-            reset_button.BackColor = Color.LightCoral;
+            reset_button.BackColor = Color.LightGreen;
         }
 
         private void reset_button_MouseLeave(object sender, EventArgs e)
@@ -186,6 +192,22 @@ namespace WinformUI
         private void resetCompleteTextBox_MouseLeave(object sender, EventArgs e)
         {
             resetCompleteTextBox.BackColor = Color.WhiteSmoke;
+        }
+
+        private void clear_button_Click(object sender, EventArgs e)
+        {
+            decode_textBox.Clear();
+            displayCode_textBox.Clear();
+        }
+
+        private void clear_button_MouseHover(object sender, EventArgs e)
+        {
+            clear_button.BackColor = Color.LightCoral;
+        }
+
+        private void clear_button_MouseLeave(object sender, EventArgs e)
+        {
+            clear_button.BackColor = Color.WhiteSmoke;
         }
     }
 }
