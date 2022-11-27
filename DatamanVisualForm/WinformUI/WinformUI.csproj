@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15F48C6E-057E-4825-AD47-E361C4226696}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WinformUI</RootNamespace>
+    <AssemblyName>WinformUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DatamanGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatamanGame.Designer.cs">
+      <DependentUpon>DatamanGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DatamanGame.resx">
+      <DependentUpon>DatamanGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DATAMIMAGES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForceOutImage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultOrangeCircleImage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElectroFlashImage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HexControlImage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HexControlImage3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NumberControlImage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NumberGuesserImage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WIpeOutImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElectroFlashImage21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ElectroFlashImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultOrangeCircleImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultOrangeCircleImage1 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultOrangeCircleImage1 - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NumberGuesserImage11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HexControlImage21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryBankImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MemoryBankImage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WIpeOutImage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ForceOutImage21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultOrangeCircleImage1 - Copy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DefaultOrangeCircleImage1 - Copy3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
