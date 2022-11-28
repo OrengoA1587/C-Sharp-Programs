@@ -9,3 +9,13 @@ C:\Users\oreng\source\repos\DatamanVisualForm\WinformUI\bin\Debug\WinformUI.exe
 C:\Users\oreng\source\repos\DatamanVisualForm\WinformUI\bin\Debug\WinformUI.pdb
 C:\Users\oreng\source\repos\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.exe
 C:\Users\oreng\source\repos\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\bin\Debug\WinformUI.exe.config
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\bin\Debug\WinformUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\bin\Debug\WinformUI.pdb
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.csproj.AssemblyReference.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.DatamanGame.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.Properties.Resources.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.csproj.GenerateResource.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.csproj.CoreCompileInputs.cache
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.exe
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\DatamanVisualForm\WinformUI\obj\Debug\WinformUI.pdb

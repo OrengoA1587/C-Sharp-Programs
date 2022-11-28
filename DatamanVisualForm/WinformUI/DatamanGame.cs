@@ -34,9 +34,23 @@ namespace WinformUI
             input_textBox.Font = font;
             input_textBox.Text = "Welcome To Dataman";
             gameOnMode = true;
+            timer1.Enabled = true;
             //input_textBox.Text = "           Welcome\n" +
             //                     "                          To\n" +
             //                     "                          Dataman";   
+        }
+        private void off_button_Click(object sender, EventArgs e)
+        {
+            if(gameOnMode == true)
+            {
+                Font font = new Font("Microsoft Himalyan", 32.0f,
+                       FontStyle.Bold | FontStyle.Italic);
+                input_textBox.Font = font;
+                input_textBox.Text = "Goodbye";
+                gameOnMode = false;
+                timer1.Enabled = true;
+            }
+            
         }
         private void buttonClickedText(object sender, EventArgs e)
         {
@@ -156,5 +170,7 @@ namespace WinformUI
         {
 
         }
+
+       
     }
 }

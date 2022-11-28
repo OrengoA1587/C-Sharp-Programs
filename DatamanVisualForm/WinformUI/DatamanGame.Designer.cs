@@ -58,7 +58,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.off_button = new System.Windows.Forms.Button();
             this.on_button = new System.Windows.Forms.Button();
             this.forceOut_button = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
@@ -286,7 +286,6 @@
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.button1);
-            this.panel2.Controls.Add(this.button3);
             this.panel2.Controls.Add(this.on_button);
             this.panel2.Controls.Add(this.forceOut_button);
             this.panel2.Controls.Add(this.button23);
@@ -308,6 +307,7 @@
             this.panel2.Controls.Add(this.button20);
             this.panel2.Controls.Add(this.button18);
             this.panel2.Controls.Add(this.button17);
+            this.panel2.Controls.Add(this.off_button);
             this.panel2.Location = new System.Drawing.Point(3, 170);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(446, 556);
@@ -489,21 +489,22 @@
             this.button1.TabIndex = 2;
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // off_button
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(183)))), ((int)(((byte)(9)))));
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Himalaya", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(247, 37);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(81, 61);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "OFF";
-            this.button3.UseVisualStyleBackColor = false;
+            this.off_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(183)))), ((int)(((byte)(9)))));
+            this.off_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("off_button.BackgroundImage")));
+            this.off_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.off_button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.off_button.FlatAppearance.BorderSize = 0;
+            this.off_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.off_button.Font = new System.Drawing.Font("Microsoft Himalaya", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.off_button.Location = new System.Drawing.Point(247, 37);
+            this.off_button.Name = "off_button";
+            this.off_button.Size = new System.Drawing.Size(81, 61);
+            this.off_button.TabIndex = 4;
+            this.off_button.Text = "OFF";
+            this.off_button.UseVisualStyleBackColor = false;
+            this.off_button.Click += new System.EventHandler(this.off_button_Click);
             // 
             // on_button
             // 
@@ -674,7 +675,7 @@
             // 
             // timer1
             // 
-            this.timer1.Interval = 300;
+            this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // timer2
@@ -731,7 +732,7 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button off_button;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button22;
         private System.Windows.Forms.Button button16;
