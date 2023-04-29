@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormUI", "WinFormUI\WinFormUI.csproj", "{0D05E570-B519-43F6-A694-A6B1E6199DD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubnetLibrary", "SubnetLibrary\SubnetLibrary.csproj", "{37F853A8-A2CA-46F0-BE6F-1AB404C764AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D05E570-B519-43F6-A694-A6B1E6199DD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D05E570-B519-43F6-A694-A6B1E6199DD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D05E570-B519-43F6-A694-A6B1E6199DD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D05E570-B519-43F6-A694-A6B1E6199DD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F853A8-A2CA-46F0-BE6F-1AB404C764AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F853A8-A2CA-46F0-BE6F-1AB404C764AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F853A8-A2CA-46F0-BE6F-1AB404C764AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F853A8-A2CA-46F0-BE6F-1AB404C764AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1396F4D2-F595-4EC3-AEDD-CBED0D827339}
+	EndGlobalSection
+EndGlobal

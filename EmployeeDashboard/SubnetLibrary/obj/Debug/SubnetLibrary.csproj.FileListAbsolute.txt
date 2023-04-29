@@ -1,0 +1,6 @@
+C:\Users\oreng\source\repos\EmployeeDashboard\SubnetLibrary\bin\Debug\SubnetLibrary.dll
+C:\Users\oreng\source\repos\EmployeeDashboard\SubnetLibrary\bin\Debug\SubnetLibrary.pdb
+C:\Users\oreng\source\repos\EmployeeDashboard\SubnetLibrary\obj\Debug\SubnetLibrary.csproj.AssemblyReference.cache
+C:\Users\oreng\source\repos\EmployeeDashboard\SubnetLibrary\obj\Debug\SubnetLibrary.csproj.CoreCompileInputs.cache
+C:\Users\oreng\source\repos\EmployeeDashboard\SubnetLibrary\obj\Debug\SubnetLibrary.dll
+C:\Users\oreng\source\repos\EmployeeDashboard\SubnetLibrary\obj\Debug\SubnetLibrary.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C# Programs\\MathFormulas\\EncryptionLibrary\\EncryptionLibrary.csproj": {}
+    "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\MathFormulas\\EncryptionLibrary\\EncryptionLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C# Programs\\MathFormulas\\EncryptionLibrary\\EncryptionLibrary.csproj": {
+    "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\MathFormulas\\EncryptionLibrary\\EncryptionLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C# Programs\\MathFormulas\\EncryptionLibrary\\EncryptionLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\MathFormulas\\EncryptionLibrary\\EncryptionLibrary.csproj",
         "projectName": "EncryptionLibrary",
-        "projectPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C# Programs\\MathFormulas\\EncryptionLibrary\\EncryptionLibrary.csproj",
+        "projectPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\MathFormulas\\EncryptionLibrary\\EncryptionLibrary.csproj",
         "packagesPath": "C:\\Users\\oreng\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C# Programs\\MathFormulas\\EncryptionLibrary\\obj\\",
+        "outputPath": "C:\\Users\\oreng\\OneDrive\\Documents\\GitHub\\C-Sharp-Programs\\MathFormulas\\EncryptionLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
