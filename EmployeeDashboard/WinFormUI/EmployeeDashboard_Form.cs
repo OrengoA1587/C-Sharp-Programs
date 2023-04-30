@@ -31,7 +31,8 @@ namespace WinFormUI
 
         private void SubnetCalculatorButton_Click(object sender, EventArgs e)
         {
-
+            SubnetCalculatorForm subCalForm = new SubnetCalculatorForm();
+            subCalForm.Show();
         }
     }
 }

@@ -38,7 +38,7 @@ namespace WinFormUI
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.totalSubnets_textBox = new System.Windows.Forms.TextBox();
             this.hosts_textBox = new System.Windows.Forms.TextBox();
             this.hostsNeededtextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -71,10 +71,10 @@ namespace WinFormUI
             // 
             // CalculatorButton
             // 
-            this.CalculatorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalculatorButton.Location = new System.Drawing.Point(203, 125);
+            this.CalculatorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CalculatorButton.Location = new System.Drawing.Point(215, 125);
             this.CalculatorButton.Name = "CalculatorButton";
-            this.CalculatorButton.Size = new System.Drawing.Size(75, 23);
+            this.CalculatorButton.Size = new System.Drawing.Size(87, 30);
             this.CalculatorButton.TabIndex = 11;
             this.CalculatorButton.Text = "Calculate";
             this.CalculatorButton.UseVisualStyleBackColor = true;
@@ -85,7 +85,7 @@ namespace WinFormUI
             this.subnet_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subnet_textBox.Location = new System.Drawing.Point(135, 171);
             this.subnet_textBox.Name = "subnet_textBox";
-            this.subnet_textBox.Size = new System.Drawing.Size(144, 29);
+            this.subnet_textBox.Size = new System.Drawing.Size(167, 29);
             this.subnet_textBox.TabIndex = 10;
             // 
             // hostBits_textBox
@@ -93,7 +93,7 @@ namespace WinFormUI
             this.hostBits_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hostBits_textBox.Location = new System.Drawing.Point(134, 90);
             this.hostBits_textBox.Name = "hostBits_textBox";
-            this.hostBits_textBox.Size = new System.Drawing.Size(144, 29);
+            this.hostBits_textBox.Size = new System.Drawing.Size(168, 29);
             this.hostBits_textBox.TabIndex = 9;
             // 
             // label1
@@ -122,11 +122,11 @@ namespace WinFormUI
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 345);
+            this.label2.Location = new System.Drawing.Point(13, 397);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(117, 18);
+            this.label2.Size = new System.Drawing.Size(94, 18);
             this.label2.TabIndex = 15;
-            this.label2.Text = "Total  Subnets";
+            this.label2.Text = "Subnet Bits";
             // 
             // label4
             // 
@@ -139,13 +139,13 @@ namespace WinFormUI
             this.label4.TabIndex = 16;
             this.label4.Text = "Hosts";
             // 
-            // textBox1
+            // totalSubnets_textBox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(158, 338);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(144, 29);
-            this.textBox1.TabIndex = 17;
+            this.totalSubnets_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalSubnets_textBox.Location = new System.Drawing.Point(159, 390);
+            this.totalSubnets_textBox.Name = "totalSubnets_textBox";
+            this.totalSubnets_textBox.Size = new System.Drawing.Size(144, 29);
+            this.totalSubnets_textBox.TabIndex = 17;
             // 
             // hosts_textBox
             // 
@@ -158,7 +158,7 @@ namespace WinFormUI
             // hostsNeededtextBox
             // 
             this.hostsNeededtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hostsNeededtextBox.Location = new System.Drawing.Point(158, 303);
+            this.hostsNeededtextBox.Location = new System.Drawing.Point(159, 355);
             this.hostsNeededtextBox.Name = "hostsNeededtextBox";
             this.hostsNeededtextBox.Size = new System.Drawing.Size(144, 29);
             this.hostsNeededtextBox.TabIndex = 19;
@@ -168,7 +168,7 @@ namespace WinFormUI
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 310);
+            this.label5.Location = new System.Drawing.Point(13, 362);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(140, 18);
             this.label5.TabIndex = 20;
@@ -176,10 +176,10 @@ namespace WinFormUI
             // 
             // CalculateHostsNeeded_Button
             // 
-            this.CalculateHostsNeeded_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalculateHostsNeeded_Button.Location = new System.Drawing.Point(227, 373);
+            this.CalculateHostsNeeded_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CalculateHostsNeeded_Button.Location = new System.Drawing.Point(215, 303);
             this.CalculateHostsNeeded_Button.Name = "CalculateHostsNeeded_Button";
-            this.CalculateHostsNeeded_Button.Size = new System.Drawing.Size(75, 23);
+            this.CalculateHostsNeeded_Button.Size = new System.Drawing.Size(88, 31);
             this.CalculateHostsNeeded_Button.TabIndex = 21;
             this.CalculateHostsNeeded_Button.Text = "Calculate";
             this.CalculateHostsNeeded_Button.UseVisualStyleBackColor = true;
@@ -207,7 +207,7 @@ namespace WinFormUI
             this.Controls.Add(this.label5);
             this.Controls.Add(this.hostsNeededtextBox);
             this.Controls.Add(this.hosts_textBox);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.totalSubnets_textBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
@@ -235,7 +235,7 @@ namespace WinFormUI
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox totalSubnets_textBox;
         private System.Windows.Forms.TextBox hosts_textBox;
         private System.Windows.Forms.TextBox hostsNeededtextBox;
         private System.Windows.Forms.Label label5;
