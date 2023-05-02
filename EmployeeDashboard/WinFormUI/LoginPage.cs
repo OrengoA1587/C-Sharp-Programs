@@ -54,6 +54,8 @@ namespace WinFormUI
                     string userName = reader.GetValue(0).ToString();
                     string passwordCheck = reader.GetValue(1).ToString();
                     //MessageBox.Show("User Exist");
+                    username_textBox.Text = "";
+                    password_textBox.Text = "";
                     EmployeeDashboard_Form emploDashForm = new EmployeeDashboard_Form();
                     emploDashForm.Show();
 

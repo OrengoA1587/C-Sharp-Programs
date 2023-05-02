@@ -93,3 +93,4 @@ C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\C-Sharp-Programs\Emplo
 C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\C-Sharp-Programs\EmployeeDashboard\WinFormUI\obj\Debug\WinFormUI.csproj.CopyComplete
 C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\C-Sharp-Programs\EmployeeDashboard\WinFormUI\obj\Debug\WinFormUI.exe
 C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\C-Sharp-Programs\EmployeeDashboard\WinFormUI\obj\Debug\WinFormUI.pdb
+C:\Users\oreng\OneDrive\Desktop\EmployeeDashboard\WinFormUI\obj\Debug\WinFormUI.csproj.SuggestedBindingRedirects.cache

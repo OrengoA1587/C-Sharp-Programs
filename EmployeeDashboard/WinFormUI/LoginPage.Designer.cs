@@ -52,7 +52,7 @@ namespace WinFormUI
             this.label1.Location = new System.Drawing.Point(13, 132);
             this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 27);
+            this.label1.Size = new System.Drawing.Size(126, 35);
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
             // 
@@ -63,24 +63,24 @@ namespace WinFormUI
             this.label2.Location = new System.Drawing.Point(17, 183);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 27);
+            this.label2.Size = new System.Drawing.Size(122, 35);
             this.label2.TabIndex = 1;
             this.label2.Text = "Password";
             // 
             // username_textBox
             // 
             this.username_textBox.Location = new System.Drawing.Point(137, 132);
-            this.username_textBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.username_textBox.Margin = new System.Windows.Forms.Padding(5);
             this.username_textBox.Name = "username_textBox";
-            this.username_textBox.Size = new System.Drawing.Size(217, 26);
+            this.username_textBox.Size = new System.Drawing.Size(217, 30);
             this.username_textBox.TabIndex = 4;
             // 
             // password_textBox
             // 
-            this.password_textBox.Location = new System.Drawing.Point(133, 182);
-            this.password_textBox.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.password_textBox.Location = new System.Drawing.Point(138, 182);
+            this.password_textBox.Margin = new System.Windows.Forms.Padding(5);
             this.password_textBox.Name = "password_textBox";
-            this.password_textBox.Size = new System.Drawing.Size(221, 26);
+            this.password_textBox.Size = new System.Drawing.Size(216, 30);
             this.password_textBox.TabIndex = 5;
             this.password_textBox.UseSystemPasswordChar = true;
             // 
@@ -90,7 +90,7 @@ namespace WinFormUI
             this.label5.Font = new System.Drawing.Font("Sans Serif Collection", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(132, 28);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(138, 27);
+            this.label5.Size = new System.Drawing.Size(188, 35);
             this.label5.TabIndex = 6;
             this.label5.Text = "Employee Login";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -144,6 +144,7 @@ namespace WinFormUI
             // 
             // button3
             // 
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button3.Location = new System.Drawing.Point(267, 286);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(87, 37);
@@ -165,10 +166,10 @@ namespace WinFormUI
             // 
             // LoginPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(385, 432);
+            this.ClientSize = new System.Drawing.Size(390, 432);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -181,7 +182,7 @@ namespace WinFormUI
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "LoginPage";
             this.Text = "LoginPage";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

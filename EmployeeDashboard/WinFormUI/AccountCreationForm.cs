@@ -52,8 +52,7 @@ namespace WinFormUI
                         sqlCom.ExecuteNonQuery();
                     }
                     sqlcon.Close();
-                    MessageBox.Show("Good");
-                    MessageBox.Show(dob_textBox.Text);
+                    Close(); 
                 }
                 catch(SqlException ex)
                 {

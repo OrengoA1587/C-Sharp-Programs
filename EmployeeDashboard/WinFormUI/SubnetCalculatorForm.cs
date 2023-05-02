@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Text.RegularExpressions;
 namespace WinFormUI
 {
     public partial class SubnetCalculatorForm : Form
@@ -19,14 +19,16 @@ namespace WinFormUI
 
         private void CalculatorButton_Click(object sender, EventArgs e)
         {
-            int hostBits = int.Parse(hostBits_textBox.Text);
+            
+            string convertString = Regex.Replace(hostBits_textBox.Text, @"[^0-9a-zA-Z]+", "");
+            int hostBits = int.Parse(convertString);
 
             double netBits = 0;
             double usableHostBits = 0;
             if(hostBits <= 32)
             {
                 netBits = 32 - hostBits;
-                MessageBox.Show(netBits.ToString());
+                 
                 subnet_textBox.Text = (Math.Pow(2, netBits).ToString("#,##0"));
             }
             else
@@ -37,8 +39,10 @@ namespace WinFormUI
         }
 
         private void CalculateHostsNeeded_Button_Click(object sender, EventArgs e)
-        {
-            double hosts = double.Parse(hosts_textBox.Text);
+        {   
+            string hostString = Regex.Replace(hosts_textBox.Text, @"[^0-9a-zA-Z]+", "");
+             
+            double hosts = double.Parse(hostString);
             double netBits = 0;
             double x = 0;
             double increment = 0;
@@ -50,7 +54,7 @@ namespace WinFormUI
                 increment = Math.Pow(2, i);
                 hostbit = i -1;
                  
-                if (increment > (double.Parse(hosts_textBox.Text)))
+                if (increment > hosts)
                 {
                     i = hosts;
                     netBits = 32 - hostbit;

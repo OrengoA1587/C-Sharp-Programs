@@ -34,5 +34,12 @@ namespace WinFormUI
             SubnetCalculatorForm subCalForm = new SubnetCalculatorForm();
             subCalForm.Show();
         }
+
+        private void logoutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+         
     }
 }
