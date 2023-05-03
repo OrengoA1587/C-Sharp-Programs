@@ -97,11 +97,11 @@ namespace WinFormUI
                     firstUseable_textBox.Text = $"{oct1}.{octetNum}.0.1";
                     lastUseable_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.254";
                     broadcastAddress_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255)
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
-                    if (octetNum + incrementNum > 255 && oct1 < 255)
+                    else if (octetNum + incrementNum > 255 && oct1 < 255)
                     {
 
                         nextAddress_textBox.Text = $"{oct1 + 1}.0.0.0";
@@ -119,7 +119,7 @@ namespace WinFormUI
                     firstUseable_textBox.Text = $"{oct1}.{oct2}.{octetNum}.1";
                     lastUseable_textBox.Text = $"{oct1}.{oct2}.{(octetNum + incrementNum) - 1}.254";
                     broadcastAddress_textBox.Text = $"{oct1}.{oct2}.{(octetNum + incrementNum) - 1}.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255 && oct2 >= 255)
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
@@ -201,15 +201,15 @@ namespace WinFormUI
                 {
                     int octetNum = 0;
                     octetNum = GetNum.GetNetAddress(incrementNum, oct2);
-                    networkAddress_textBox.Text = $"{oct_one.Text}.{octetNum}.0.0";
-                    firstUseable_textBox.Text = $"{oct_one.Text}.{octetNum}.0.1";
-                    lastUseable_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.254";
-                    broadcastAddress_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255)
+                    networkAddress_textBox.Text = $"{oct1}.{octetNum}.0.0";
+                    firstUseable_textBox.Text = $"{oct1}.{octetNum}.0.1";
+                    lastUseable_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.254";
+                    broadcastAddress_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.255";
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
-                    if (octetNum + incrementNum > 255 && oct1 < 255)
+                    else if (octetNum + incrementNum > 255 && oct1 < 255)
                     {
 
                         nextAddress_textBox.Text = $"{oct1 + 1}.0.0.0";
@@ -310,15 +310,15 @@ namespace WinFormUI
                 {
                     int octetNum = 0;
                     octetNum = GetNum.GetNetAddress(incrementNum, oct2);
-                    networkAddress_textBox.Text = $"{oct_one.Text}.{octetNum}.0.0";
-                    firstUseable_textBox.Text = $"{oct_one.Text}.{octetNum}.0.1";
-                    lastUseable_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.254";
-                    broadcastAddress_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255)
+                    networkAddress_textBox.Text = $"{oct1}.{octetNum}.0.0";
+                    firstUseable_textBox.Text = $"{oct1}.{octetNum}.0.1";
+                    lastUseable_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.254";
+                    broadcastAddress_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.255";
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
-                    if (octetNum + incrementNum > 255 && oct1 < 255)
+                    else if (octetNum + incrementNum > 255 && oct1 < 255)
                     {
 
                         nextAddress_textBox.Text = $"{oct1 + 1}.0.0.0";
@@ -417,15 +417,15 @@ namespace WinFormUI
                 {
                     int octetNum = 0;
                     octetNum = GetNum.GetNetAddress(incrementNum, oct2);
-                    networkAddress_textBox.Text = $"{oct_one.Text}.{octetNum}.0.0";
-                    firstUseable_textBox.Text = $"{oct_one.Text}.{octetNum}.0.1";
-                    lastUseable_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.254";
-                    broadcastAddress_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255)
+                    networkAddress_textBox.Text = $"{oct1}.{octetNum}.0.0";
+                    firstUseable_textBox.Text = $"{oct1}.{octetNum}.0.1";
+                    lastUseable_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.254";
+                    broadcastAddress_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.255";
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
-                    if (octetNum + incrementNum > 255 && oct1 < 255)
+                    else if (octetNum + incrementNum > 255 && oct1 < 255)
                     {
 
                         nextAddress_textBox.Text = $"{oct1 + 1}.0.0.0";
@@ -524,15 +524,15 @@ namespace WinFormUI
                 {
                     int octetNum = 0;
                     octetNum = GetNum.GetNetAddress(incrementNum, oct2);
-                    networkAddress_textBox.Text = $"{oct_one.Text}.{octetNum}.0.0";
-                    firstUseable_textBox.Text = $"{oct_one.Text}.{octetNum}.0.1";
-                    lastUseable_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.254";
-                    broadcastAddress_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255)
+                    networkAddress_textBox.Text = $"{oct1}.{octetNum}.0.0";
+                    firstUseable_textBox.Text = $"{oct1}.{octetNum}.0.1";
+                    lastUseable_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.254";
+                    broadcastAddress_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.255";
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
-                    if (octetNum + incrementNum > 255 && oct1 < 255)
+                    else if (octetNum + incrementNum > 255 && oct1 < 255)
                     {
 
                         nextAddress_textBox.Text = $"{oct1 + 1}.0.0.0";
@@ -631,15 +631,15 @@ namespace WinFormUI
                 {
                     int octetNum = 0;
                     octetNum = GetNum.GetNetAddress(incrementNum, oct2);
-                    networkAddress_textBox.Text = $"{oct_one.Text}.{octetNum}.0.0";
-                    firstUseable_textBox.Text = $"{oct_one.Text}.{octetNum}.0.1";
-                    lastUseable_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.254";
-                    broadcastAddress_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255)
+                    networkAddress_textBox.Text = $"{oct1}.{octetNum}.0.0";
+                    firstUseable_textBox.Text = $"{oct1}.{octetNum}.0.1";
+                    lastUseable_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.254";
+                    broadcastAddress_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.255";
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
-                    if (octetNum + incrementNum > 255 && oct1 < 255)
+                    else if (octetNum + incrementNum > 255 && oct1 < 255)
                     {
 
                         nextAddress_textBox.Text = $"{oct1 + 1}.0.0.0";
@@ -738,15 +738,15 @@ namespace WinFormUI
                 {
                     int octetNum = 0;
                     octetNum = GetNum.GetNetAddress(incrementNum, oct2);
-                    networkAddress_textBox.Text = $"{oct_one.Text}.{octetNum}.0.0";
-                    firstUseable_textBox.Text = $"{oct_one.Text}.{octetNum}.0.1";
-                    lastUseable_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.254";
-                    broadcastAddress_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255)
+                    networkAddress_textBox.Text = $"{oct1}.{octetNum}.0.0";
+                    firstUseable_textBox.Text = $"{oct1}.{octetNum}.0.1";
+                    lastUseable_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.254";
+                    broadcastAddress_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.255";
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
-                    if (octetNum + incrementNum > 255 && oct1 < 255)
+                    else if (octetNum + incrementNum > 255 && oct1 < 255)
                     {
 
                         nextAddress_textBox.Text = $"{oct1 + 1}.0.0.0";
@@ -846,15 +846,15 @@ namespace WinFormUI
                 {
                     int octetNum = 0;
                     octetNum = GetNum.GetNetAddress(incrementNum, oct2);
-                    networkAddress_textBox.Text = $"{oct_one.Text}.{octetNum}.0.0";
-                    firstUseable_textBox.Text = $"{oct_one.Text}.{octetNum}.0.1";
-                    lastUseable_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.254";
-                    broadcastAddress_textBox.Text = $"{oct_one.Text}.{(octetNum + incrementNum) - 1}.255.255";
-                    if (octetNum + incrementNum > 255 && oct1 >= 255)
+                    networkAddress_textBox.Text = $"{oct1}.{octetNum}.0.0";
+                    firstUseable_textBox.Text = $"{oct1}.{octetNum}.0.1";
+                    lastUseable_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.254";
+                    broadcastAddress_textBox.Text = $"{oct1}.{(octetNum + incrementNum) - 1}.255.255";
+                    if (broadcastAddress_textBox.Text == "255.255.255.255")
                     {
                         nextAddress_textBox.Text = $"Limit";
                     }
-                    if (octetNum + incrementNum > 255 && oct1 < 255)
+                    else if (octetNum + incrementNum > 255 && oct1 < 255)
                     {
 
                         nextAddress_textBox.Text = $"{oct1 + 1}.0.0.0";
@@ -1001,7 +1001,12 @@ namespace WinFormUI
             }
         }
 
-        
+        private void oct_one_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
 
         //private void BroadcastDetermination(int octetSet)
         //{

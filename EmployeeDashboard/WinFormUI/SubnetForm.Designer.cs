@@ -352,6 +352,7 @@ namespace WinFormUI
             this.oct_one.Size = new System.Drawing.Size(103, 30);
             this.oct_one.TabIndex = 22;
             this.oct_one.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.oct_one.TextChanged += new System.EventHandler(this.oct_one_TextChanged);
             // 
             // label1
             // 
