@@ -16,7 +16,7 @@ namespace WinFormUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SubnetForm());
+            Application.Run(new EmployeeDashboard_Form());
         }
     }
 }

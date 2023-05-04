@@ -12,6 +12,7 @@ using System.Security.Cryptography;
 using System.Configuration;
 using System.Text.RegularExpressions;
 using System.Windows;
+using System.IO;
 namespace WinFormUI
 {
     public partial class LoginPage : Form
@@ -30,7 +31,8 @@ namespace WinFormUI
         private void button3_Click(object sender, EventArgs e)
         {
             EncryptPassword encrypPass = new EncryptPassword();
-
+            //string dir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            //MessageBox.Show(dir);
             encrypPass.Pass = password_textBox.Text; ;
             string password = encrypPass.Pass;
             

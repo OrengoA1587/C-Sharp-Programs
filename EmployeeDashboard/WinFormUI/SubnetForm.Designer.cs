@@ -30,6 +30,10 @@ namespace WinFormUI
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.octet_textBox = new System.Windows.Forms.TextBox();
+            this.interval_textBox = new System.Windows.Forms.TextBox();
             this.subnetNumber_textBox = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.next_button = new System.Windows.Forms.Button();
@@ -62,6 +66,11 @@ namespace WinFormUI
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.panel1.Controls.Add(this.label14);
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.octet_textBox);
+            this.panel1.Controls.Add(this.interval_textBox);
             this.panel1.Controls.Add(this.subnetNumber_textBox);
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.next_button);
@@ -90,8 +99,46 @@ namespace WinFormUI
             this.panel1.Location = new System.Drawing.Point(24, 76);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(885, 505);
+            this.panel1.Size = new System.Drawing.Size(1030, 505);
             this.panel1.TabIndex = 0;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(799, 167);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(64, 25);
+            this.label14.TabIndex = 49;
+            this.label14.Text = "Octet";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(799, 109);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(83, 25);
+            this.label13.TabIndex = 48;
+            this.label13.Text = "Interval";
+            // 
+            // octet_textBox
+            // 
+            this.octet_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.octet_textBox.Location = new System.Drawing.Point(889, 164);
+            this.octet_textBox.Name = "octet_textBox";
+            this.octet_textBox.Size = new System.Drawing.Size(100, 30);
+            this.octet_textBox.TabIndex = 47;
+            // 
+            // interval_textBox
+            // 
+            this.interval_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.interval_textBox.Location = new System.Drawing.Point(889, 106);
+            this.interval_textBox.Name = "interval_textBox";
+            this.interval_textBox.Size = new System.Drawing.Size(100, 30);
+            this.interval_textBox.TabIndex = 46;
             // 
             // subnetNumber_textBox
             // 
@@ -381,10 +428,14 @@ namespace WinFormUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_16_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1067, 594);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SubnetForm";
             this.Text = "SubnetForm";
@@ -425,5 +476,9 @@ namespace WinFormUI
         private System.Windows.Forms.Button next_button;
         private System.Windows.Forms.TextBox subnetNumber_textBox;
         private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox octet_textBox;
+        private System.Windows.Forms.TextBox interval_textBox;
     }
 }
