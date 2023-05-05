@@ -79,6 +79,51 @@ namespace WinFormUI
             cisco_webBrowser.Navigate(url_textBox.Text);
         }
 
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void x_Button_MouseHover(object sender, EventArgs e)
+        {
+            x_Button.BackColor = Color.Red;
+            x_Button.ForeColor = Color.White;
+        }
+
+        private void x_Button_MouseLeave(object sender, EventArgs e)
+        {
+            x_Button.BackColor = Color.LightGray;
+            x_Button.ForeColor = Color.Black;
+        }
+
+        private void x_Button_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
         
+        
+        
+        private void minimized_button_Click_1(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Minimized;
+            MinimumSize = new Size(500,500);
+        }
+
+        private void maximize_button_Click_1(object sender, EventArgs e)
+        {
+            WindowState = FormWindowState.Maximized;
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+       
+        private void url_textBox_MouseEnter(object sender, EventArgs e)
+        {
+            cisco_webBrowser.Navigate(url_textBox.Text);
+        }
     }
 }

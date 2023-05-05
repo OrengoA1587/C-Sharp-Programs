@@ -17,6 +17,8 @@ namespace WinFormUI
 {
     public partial class LoginPage : Form
     {
+        EmployeeDashboard_Form emploDashForm = new EmployeeDashboard_Form();
+
         public LoginPage()
         {
             InitializeComponent();
@@ -28,7 +30,7 @@ namespace WinFormUI
             acctCreate.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void login_button_Click(object sender, EventArgs e)
         {
             EncryptPassword encrypPass = new EncryptPassword();
             //string dir = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
@@ -58,7 +60,6 @@ namespace WinFormUI
                     //MessageBox.Show("User Exist");
                     username_textBox.Text = "";
                     password_textBox.Text = "";
-                    EmployeeDashboard_Form emploDashForm = new EmployeeDashboard_Form();
                     emploDashForm.Show();
 
                 }
@@ -83,5 +84,27 @@ namespace WinFormUI
                 password_textBox.UseSystemPasswordChar = true;
             }
         }
+
+        private void createAccount_MouseHover(object sender, EventArgs e)
+        {
+            create_accountButton.ForeColor = Color.Black;
+        }
+
+        private void createAccount_MouseLeave(object sender, EventArgs e)
+        {
+            create_accountButton.ForeColor = Color.White;
+        }
+
+        private void ForgotPass_button_MouseHover(object sender, EventArgs e)
+        {
+            ForgotPass_button.ForeColor = Color.Black;
+        }
+
+        private void ForgotPass_button_MouseLeave(object sender, EventArgs e)
+        {
+            ForgotPass_button.ForeColor = Color.White;
+        }
+
+         
     }
 }

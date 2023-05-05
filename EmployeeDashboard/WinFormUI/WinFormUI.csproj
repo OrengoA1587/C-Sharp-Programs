@@ -181,6 +181,21 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CiscoEmployeeDB.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Logout_image.png" />
+    <None Include="Resources\Calculator_image2.png" />
+    <None Include="Resources\Calculator_Image.png" />
+    <None Include="Resources\Copy of Untitled Design3.png" />
+    <None Include="Resources\Copy of Untitled Design2.png" />
+    <None Include="Resources\Copy of Untitled Design1.png" />
+    <None Include="Resources\Untitled design%2817%29.png" />
+    <None Include="Resources\Untitled design%2816%291.png" />
+    <None Include="Resources\Copy of Untitled Design%281%29.png" />
+    <None Include="Resources\Copy of Untitled Design.png" />
+    <None Include="Resources\Untitled design%2815%29.png" />
+    <None Include="Resources\Untitled design%2814%29.png" />
+    <None Include="Resources\Untitled design%2813%29.png" />
+    <None Include="Resources\Untitled design%2812%29.png" />
+    <None Include="Resources\Untitled design%2811%29.png" />
     <None Include="Resources\Untitled design%287%29.png" />
     <None Include="Resources\Untitled design%288%29.png" />
     <None Include="Resources\Untitled design%289%29.png" />

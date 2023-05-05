@@ -113,19 +113,19 @@ namespace WinFormUI
                 password_textBox.UseSystemPasswordChar = true;
             }
         }
-        private void TextBox_LostFocus(object sender, EventArgs e)
-        {
-            if (((TextBox)sender).Text.Length < 3 && ((TextBox)sender).Text.Length > 0)
-            {
-                characterLimit.Visible = true;
-                lName_limit.Visible = true;
-            }
-            else
-            {
-                characterLimit.Visible = false;
-                lName_limit.Visible = false;
-            }
-        }
+        //private void TextBox_LostFocus(object sender, EventArgs e)
+        //{
+        //    if (((TextBox)sender).Text.Length < 3 && ((TextBox)sender).Text.Length > 0)
+        //    {
+        //        characterLimit.Visible = true;
+        //        lName_limit.Visible = true;
+        //    }
+        //    else
+        //    {
+        //        characterLimit.Visible = false;
+        //        lName_limit.Visible = false;
+        //    }
+        //}
 
 
 

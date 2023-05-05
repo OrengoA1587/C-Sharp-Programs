@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Printing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -45,7 +46,7 @@ namespace WinFormUI
             }
             catch
             {
-                MessageBox.Show("Invalid Input!");
+                //MessageBox.Show("Invalid Input!");
             }
 
         }
@@ -1075,6 +1076,29 @@ namespace WinFormUI
         {
 
         }
+
+         
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void printPreviewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PrintDialog print = new PrintDialog(); 
+            PrintDocument printDocument = new PrintDocument();
+            print.Document = printDocument;
+            print.AllowSelection = true;
+
+            print.AllowSomePages = true; ;
+            print.ShowDialog();
+            
+        }
+
+         
+
+
 
 
 
