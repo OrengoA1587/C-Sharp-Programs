@@ -167,11 +167,11 @@ namespace WinFormUI
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::WinFormUI.Properties.Resources.Untitled_design_12_;
-            this.pictureBox1.Location = new System.Drawing.Point(420, 343);
+            this.pictureBox1.Image = global::WinFormUI.Properties.Resources.Untitled_design_13_;
+            this.pictureBox1.Location = new System.Drawing.Point(494, 317);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(72, 64);
+            this.pictureBox1.Size = new System.Drawing.Size(151, 111);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
@@ -213,7 +213,7 @@ namespace WinFormUI
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::WinFormUI.Properties.Resources.HostCalcTitle2;
-            this.pictureBox2.Location = new System.Drawing.Point(-107, 33);
+            this.pictureBox2.Location = new System.Drawing.Point(-119, 33);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(730, 59);
             this.pictureBox2.TabIndex = 2;

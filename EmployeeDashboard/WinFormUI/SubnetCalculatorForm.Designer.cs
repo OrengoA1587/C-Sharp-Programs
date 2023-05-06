@@ -162,7 +162,7 @@ namespace WinFormUI
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox1.Image = global::WinFormUI.Properties.Resources.Untitled_design_13_;
-            this.pictureBox1.Location = new System.Drawing.Point(569, 494);
+            this.pictureBox1.Location = new System.Drawing.Point(599, 535);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(132, 126);
@@ -264,7 +264,7 @@ namespace WinFormUI
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(715, 667);
+            this.panel1.Size = new System.Drawing.Size(739, 669);
             this.panel1.TabIndex = 23;
             // 
             // panel2
@@ -275,7 +275,7 @@ namespace WinFormUI
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(-1, -1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(715, 114);
+            this.panel2.Size = new System.Drawing.Size(738, 114);
             this.panel2.TabIndex = 25;
             // 
             // pictureBox2
@@ -298,7 +298,7 @@ namespace WinFormUI
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(715, 33);
+            this.menuStrip1.Size = new System.Drawing.Size(739, 33);
             this.menuStrip1.TabIndex = 24;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -525,7 +525,7 @@ namespace WinFormUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(715, 667);
+            this.ClientSize = new System.Drawing.Size(739, 669);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
