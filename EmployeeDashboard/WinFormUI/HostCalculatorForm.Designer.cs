@@ -30,7 +30,6 @@ namespace WinFormUI
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HostCalculatorForm));
-            this.label1 = new System.Windows.Forms.Label();
             this.networkBits_textBox = new System.Windows.Forms.TextBox();
             this.host_textBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -41,6 +40,7 @@ namespace WinFormUI
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -74,26 +74,15 @@ namespace WinFormUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Mongolian Baiti", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label1.Location = new System.Drawing.Point(15, 45);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(335, 50);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Host Calculator";
             // 
             // networkBits_textBox
             // 
             this.networkBits_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.networkBits_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.networkBits_textBox.ForeColor = System.Drawing.Color.Red;
             this.networkBits_textBox.Location = new System.Drawing.Point(264, 115);
             this.networkBits_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.networkBits_textBox.Name = "networkBits_textBox";
@@ -205,7 +194,7 @@ namespace WinFormUI
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(507, 422);
+            this.panel1.Size = new System.Drawing.Size(625, 436);
             this.panel1.TabIndex = 9;
             // 
             // panel2
@@ -213,12 +202,22 @@ namespace WinFormUI
             this.panel2.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.Location = new System.Drawing.Point(-2, -2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(552, 99);
+            this.panel2.Size = new System.Drawing.Size(698, 99);
             this.panel2.TabIndex = 9;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::WinFormUI.Properties.Resources.HostCalcTitle2;
+            this.pictureBox2.Location = new System.Drawing.Point(-107, 33);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(730, 59);
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
             // 
             // menuStrip1
             // 
@@ -231,7 +230,7 @@ namespace WinFormUI
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(548, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(694, 30);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -458,7 +457,7 @@ namespace WinFormUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(507, 422);
+            this.ClientSize = new System.Drawing.Size(625, 436);
             this.Controls.Add(this.panel1);
             this.DoubleBuffered = true;
             this.MainMenuStrip = this.menuStrip1;
@@ -470,6 +469,7 @@ namespace WinFormUI
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -477,8 +477,6 @@ namespace WinFormUI
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox networkBits_textBox;
         private System.Windows.Forms.TextBox host_textBox;
         private System.Windows.Forms.Button button1;
@@ -519,5 +517,6 @@ namespace WinFormUI
         private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

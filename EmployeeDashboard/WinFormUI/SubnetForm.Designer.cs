@@ -51,7 +51,7 @@ namespace WinFormUI
             this.lastUseable_textBox = new System.Windows.Forms.TextBox();
             this.firstUseable_textBox = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.cidrNotat = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -95,6 +95,7 @@ namespace WinFormUI
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -379,7 +380,7 @@ namespace WinFormUI
             this.panel2.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.cidrNotat);
             this.panel2.Controls.Add(this.label3);
@@ -397,18 +398,15 @@ namespace WinFormUI
             this.panel2.Size = new System.Drawing.Size(1123, 159);
             this.panel2.TabIndex = 50;
             // 
-            // label9
+            // pictureBox2
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Mongolian Baiti", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label9.Location = new System.Drawing.Point(5, 33);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(380, 50);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Subnet Calculator";
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::WinFormUI.Properties.Resources.SubnetCalcTitle;
+            this.pictureBox2.Location = new System.Drawing.Point(14, 20);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(878, 60);
+            this.pictureBox2.TabIndex = 42;
+            this.pictureBox2.TabStop = false;
             // 
             // label10
             // 
@@ -796,6 +794,7 @@ namespace WinFormUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -824,7 +823,6 @@ namespace WinFormUI
         private System.Windows.Forms.TextBox oct_one;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox nextAddress_textBox;
         private System.Windows.Forms.Label label11;
@@ -866,5 +864,6 @@ namespace WinFormUI
         private System.Windows.Forms.ToolStripMenuItem searchToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

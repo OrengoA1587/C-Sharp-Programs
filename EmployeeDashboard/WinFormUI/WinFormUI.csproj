@@ -181,6 +181,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CiscoEmployeeDB.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\HostCalcTitle2.png" />
+    <None Include="Resources\HostCalcTitle.png" />
+    <None Include="Resources\BitCalTitle.png" />
+    <None Include="Resources\SubnetCalcTitle.png" />
+    <None Include="Resources\Cisco Dashboard%282%29.png" />
+    <None Include="Resources\Cisco Dashboard%281%29.png" />
+    <None Include="Resources\Cisco Dashboard.png" />
     <None Include="Resources\Logout_image.png" />
     <None Include="Resources\Calculator_image2.png" />
     <None Include="Resources\Calculator_Image.png" />

@@ -63,6 +63,16 @@ namespace WinFormUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BitCalTitle {
+            get {
+                object obj = ResourceManager.GetObject("BitCalTitle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Calculator_Image {
             get {
                 object obj = ResourceManager.GetObject("Calculator_Image", resourceCulture);
@@ -76,6 +86,36 @@ namespace WinFormUI.Properties {
         internal static System.Drawing.Bitmap Calculator_image2 {
             get {
                 object obj = ResourceManager.GetObject("Calculator_image2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cisco_Dashboard {
+            get {
+                object obj = ResourceManager.GetObject("Cisco Dashboard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cisco_Dashboard_1_ {
+            get {
+                object obj = ResourceManager.GetObject("Cisco Dashboard(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cisco_Dashboard_2_ {
+            get {
+                object obj = ResourceManager.GetObject("Cisco Dashboard(2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +183,39 @@ namespace WinFormUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HostCalcTitle {
+            get {
+                object obj = ResourceManager.GetObject("HostCalcTitle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HostCalcTitle2 {
+            get {
+                object obj = ResourceManager.GetObject("HostCalcTitle2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logout_image {
             get {
                 object obj = ResourceManager.GetObject("Logout_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SubnetCalcTitle {
+            get {
+                object obj = ResourceManager.GetObject("SubnetCalcTitle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -45,7 +45,7 @@ namespace WinFormUI
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -79,6 +79,7 @@ namespace WinFormUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -110,7 +111,7 @@ namespace WinFormUI
             // 
             this.CalculatorButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.CalculatorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalculatorButton.Location = new System.Drawing.Point(431, 494);
+            this.CalculatorButton.Location = new System.Drawing.Point(444, 494);
             this.CalculatorButton.Margin = new System.Windows.Forms.Padding(4);
             this.CalculatorButton.Name = "CalculatorButton";
             this.CalculatorButton.Size = new System.Drawing.Size(116, 37);
@@ -135,7 +136,8 @@ namespace WinFormUI
             // 
             this.subBits_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.subBits_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subBits_textBox.Location = new System.Drawing.Point(279, 438);
+            this.subBits_textBox.ForeColor = System.Drawing.Color.Red;
+            this.subBits_textBox.Location = new System.Drawing.Point(292, 440);
             this.subBits_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.subBits_textBox.Name = "subBits_textBox";
             this.subBits_textBox.Size = new System.Drawing.Size(268, 34);
@@ -151,7 +153,7 @@ namespace WinFormUI
             this.label1.Location = new System.Drawing.Point(176, 379);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(275, 36);
+            this.label1.Size = new System.Drawing.Size(272, 35);
             this.label1.TabIndex = 8;
             this.label1.Text = "Subnet Calculator";
             // 
@@ -183,7 +185,8 @@ namespace WinFormUI
             // 
             this.hosts_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.hosts_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hosts_textBox.Location = new System.Drawing.Point(279, 202);
+            this.hosts_textBox.ForeColor = System.Drawing.Color.Red;
+            this.hosts_textBox.Location = new System.Drawing.Point(292, 204);
             this.hosts_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.hosts_textBox.Name = "hosts_textBox";
             this.hosts_textBox.Size = new System.Drawing.Size(268, 34);
@@ -193,7 +196,7 @@ namespace WinFormUI
             // 
             this.hostsNeededtextBox.BackColor = System.Drawing.SystemColors.Window;
             this.hostsNeededtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hostsNeededtextBox.Location = new System.Drawing.Point(441, 317);
+            this.hostsNeededtextBox.Location = new System.Drawing.Point(454, 314);
             this.hostsNeededtextBox.Margin = new System.Windows.Forms.Padding(4);
             this.hostsNeededtextBox.Name = "hostsNeededtextBox";
             this.hostsNeededtextBox.ReadOnly = true;
@@ -216,7 +219,7 @@ namespace WinFormUI
             // 
             this.CalculateHostsNeeded_Button.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.CalculateHostsNeeded_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalculateHostsNeeded_Button.Location = new System.Drawing.Point(430, 255);
+            this.CalculateHostsNeeded_Button.Location = new System.Drawing.Point(443, 255);
             this.CalculateHostsNeeded_Button.Margin = new System.Windows.Forms.Padding(4);
             this.CalculateHostsNeeded_Button.Name = "CalculateHostsNeeded_Button";
             this.CalculateHostsNeeded_Button.Size = new System.Drawing.Size(117, 38);
@@ -234,7 +237,7 @@ namespace WinFormUI
             this.label6.Location = new System.Drawing.Point(176, 131);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(297, 36);
+            this.label6.Size = new System.Drawing.Size(292, 35);
             this.label6.TabIndex = 22;
             this.label6.Text = "Host Bit Calculator";
             // 
@@ -269,24 +272,21 @@ namespace WinFormUI
             this.panel2.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Location = new System.Drawing.Point(-1, -1);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(715, 114);
             this.panel2.TabIndex = 25;
             // 
-            // label7
+            // pictureBox2
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Mongolian Baiti", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label7.Location = new System.Drawing.Point(4, 42);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(644, 50);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Subnet and Host Bit Calculator";
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.Image = global::WinFormUI.Properties.Resources.BitCalTitle;
+            this.pictureBox2.Location = new System.Drawing.Point(-52, 33);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(752, 62);
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
             // menuStrip1
             // 
@@ -537,7 +537,7 @@ namespace WinFormUI
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -560,7 +560,6 @@ namespace WinFormUI
         private System.Windows.Forms.Button CalculateHostsNeeded_Button;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
@@ -592,5 +591,6 @@ namespace WinFormUI
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
