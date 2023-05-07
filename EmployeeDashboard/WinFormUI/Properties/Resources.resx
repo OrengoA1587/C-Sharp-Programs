@@ -133,6 +133,9 @@
   <data name="Calculator_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Calculator_Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="CalcImage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CalcImage4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Copy of Untitled Design3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Copy of Untitled Design3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,11 +145,17 @@
   <data name="Cisco Dashboard(2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cisco Dashboard(2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Logout3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logout3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="CiscoLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CiscoLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SubnetCalcTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SubnetCalcTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SubnetBitCalImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SubnetBitCalImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Untitled design(3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design(3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -159,6 +168,9 @@
   </data>
   <data name="Untitled design(14)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design(14).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled design(16)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design(16)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Untitled design(17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design(17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,8 +205,8 @@
   <data name="Untitled design(6)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design(6).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Orange_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Orange_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SubnetCalTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SubnetCalTitle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Copy of Untitled Design1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Copy of Untitled Design1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,8 +232,8 @@
   <data name="Untitled design(11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design(11).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CalcImage4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CalcImage4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Orange_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orange_image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Cisco Dashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cisco Dashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -235,16 +247,13 @@
   <data name="HostCalcTitle2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HostCalcTitle2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled design(4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled design(4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Untitled design(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled design(16)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled design(16)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Untitled design(4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design(4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Logout3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Logout3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PendingImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PendingImage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -95,3 +95,4 @@ C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\C-Sharp-Programs\Emplo
 C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\C-Sharp-Programs\EmployeeDashboard\WinFormUI\obj\Debug\WinFormUI.pdb
 C:\Users\oreng\OneDrive\Desktop\EmployeeDashboard\WinFormUI\obj\Debug\WinFormUI.csproj.SuggestedBindingRedirects.cache
 C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\C-Sharp-Programs\EmployeeDashboard\WinFormUI\obj\Debug\WinFormUI.AboutForm.resources
+C:\Users\oreng\OneDrive\Documents\GitHub\C-Sharp-Programs\C-Sharp-Programs\EmployeeDashboard\WinFormUI\obj\Debug\WinFormUI.SubnetBitCalculator.resources

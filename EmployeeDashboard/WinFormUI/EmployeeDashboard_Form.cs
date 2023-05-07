@@ -155,5 +155,11 @@ namespace WinFormUI
             AboutForm about = new AboutForm();
             about.ShowDialog();
         }
+
+        private void subnetBitCalculatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SubnetBitCalculator subnetBitCalculator = new SubnetBitCalculator();
+            subnetBitCalculator.Show();
+        }
     }
 }

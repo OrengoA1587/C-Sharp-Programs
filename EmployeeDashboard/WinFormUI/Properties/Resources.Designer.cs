@@ -283,9 +283,39 @@ namespace WinFormUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PendingImage {
+            get {
+                object obj = ResourceManager.GetObject("PendingImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SubnetBitCalImage {
+            get {
+                object obj = ResourceManager.GetObject("SubnetBitCalImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SubnetCalcTitle {
             get {
                 object obj = ResourceManager.GetObject("SubnetCalcTitle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SubnetCalTitle {
+            get {
+                object obj = ResourceManager.GetObject("SubnetCalTitle", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

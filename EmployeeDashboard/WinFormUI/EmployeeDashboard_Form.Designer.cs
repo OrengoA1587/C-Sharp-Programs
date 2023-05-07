@@ -55,6 +55,7 @@ namespace WinFormUI
             this.subnetCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.subnetCalculatorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.bitCalculatorToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.subnetBitCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -129,7 +130,7 @@ namespace WinFormUI
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.newToolStripMenuItem.Text = "&New";
             // 
             // openToolStripMenuItem
@@ -197,7 +198,7 @@ namespace WinFormUI
             // 
             this.exitToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Logout3;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -281,7 +282,8 @@ namespace WinFormUI
             this.calculatorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.subnetCalculatorToolStripMenuItem,
             this.subnetCalculatorToolStripMenuItem1,
-            this.bitCalculatorToolStripMenuItem2});
+            this.bitCalculatorToolStripMenuItem2,
+            this.subnetBitCalculatorToolStripMenuItem});
             this.calculatorsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calculatorsToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.CalcImage4;
             this.calculatorsToolStripMenuItem.Name = "calculatorsToolStripMenuItem";
@@ -292,7 +294,7 @@ namespace WinFormUI
             // 
             this.subnetCalculatorToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Untitled_design_14_;
             this.subnetCalculatorToolStripMenuItem.Name = "subnetCalculatorToolStripMenuItem";
-            this.subnetCalculatorToolStripMenuItem.Size = new System.Drawing.Size(254, 30);
+            this.subnetCalculatorToolStripMenuItem.Size = new System.Drawing.Size(281, 30);
             this.subnetCalculatorToolStripMenuItem.Text = "Subnet Calculator";
             this.subnetCalculatorToolStripMenuItem.Click += new System.EventHandler(this.subnetCalculatorToolStripMenuItem_Click);
             // 
@@ -300,7 +302,7 @@ namespace WinFormUI
             // 
             this.subnetCalculatorToolStripMenuItem1.Image = global::WinFormUI.Properties.Resources.CiscoOrangeLogo;
             this.subnetCalculatorToolStripMenuItem1.Name = "subnetCalculatorToolStripMenuItem1";
-            this.subnetCalculatorToolStripMenuItem1.Size = new System.Drawing.Size(254, 30);
+            this.subnetCalculatorToolStripMenuItem1.Size = new System.Drawing.Size(281, 30);
             this.subnetCalculatorToolStripMenuItem1.Text = "Host Calculator";
             this.subnetCalculatorToolStripMenuItem1.Click += new System.EventHandler(this.hostCalculatorToolStripMenuItem1_Click);
             // 
@@ -308,9 +310,17 @@ namespace WinFormUI
             // 
             this.bitCalculatorToolStripMenuItem2.Image = global::WinFormUI.Properties.Resources.CiscogreenLogo;
             this.bitCalculatorToolStripMenuItem2.Name = "bitCalculatorToolStripMenuItem2";
-            this.bitCalculatorToolStripMenuItem2.Size = new System.Drawing.Size(254, 30);
+            this.bitCalculatorToolStripMenuItem2.Size = new System.Drawing.Size(281, 30);
             this.bitCalculatorToolStripMenuItem2.Text = "Bits Calculator";
             this.bitCalculatorToolStripMenuItem2.Click += new System.EventHandler(this.bitCalculatorToolStripMenuItem2_Click_1);
+            // 
+            // subnetBitCalculatorToolStripMenuItem
+            // 
+            this.subnetBitCalculatorToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.SubnetBitCalImage;
+            this.subnetBitCalculatorToolStripMenuItem.Name = "subnetBitCalculatorToolStripMenuItem";
+            this.subnetBitCalculatorToolStripMenuItem.Size = new System.Drawing.Size(281, 30);
+            this.subnetBitCalculatorToolStripMenuItem.Text = "Subnet Bit Calculator";
+            this.subnetBitCalculatorToolStripMenuItem.Click += new System.EventHandler(this.subnetBitCalculatorToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
             // 
@@ -354,33 +364,33 @@ namespace WinFormUI
             // 
             this.contentsToolStripMenuItem.Enabled = false;
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
             this.contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
             // 
             this.indexToolStripMenuItem.Enabled = false;
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Enabled = false;
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
             this.searchToolStripMenuItem.Text = "&Search";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(221, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(174, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Untitled_design_19_;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -398,7 +408,7 @@ namespace WinFormUI
             // 
             this.logoutToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Logout3;
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(158, 30);
             this.logoutToolStripMenuItem.Text = "Logout";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
@@ -672,5 +682,6 @@ namespace WinFormUI
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.ToolStripMenuItem subnetBitCalculatorToolStripMenuItem;
     }
 }
