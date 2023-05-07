@@ -213,6 +213,16 @@ namespace WinFormUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Orange_image {
+            get {
+                object obj = ResourceManager.GetObject("Orange_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SubnetCalcTitle {
             get {
                 object obj = ResourceManager.GetObject("SubnetCalcTitle", resourceCulture);
@@ -316,6 +326,16 @@ namespace WinFormUI.Properties {
         internal static System.Drawing.Bitmap Untitled_design_17_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design(17)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design_18_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design(18)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

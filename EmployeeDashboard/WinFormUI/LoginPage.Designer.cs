@@ -74,7 +74,7 @@ namespace WinFormUI
             this.username_textBox.Location = new System.Drawing.Point(137, 132);
             this.username_textBox.Margin = new System.Windows.Forms.Padding(5);
             this.username_textBox.Name = "username_textBox";
-            this.username_textBox.Size = new System.Drawing.Size(217, 30);
+            this.username_textBox.Size = new System.Drawing.Size(273, 30);
             this.username_textBox.TabIndex = 4;
             // 
             // password_textBox
@@ -82,7 +82,7 @@ namespace WinFormUI
             this.password_textBox.Location = new System.Drawing.Point(138, 182);
             this.password_textBox.Margin = new System.Windows.Forms.Padding(5);
             this.password_textBox.Name = "password_textBox";
-            this.password_textBox.Size = new System.Drawing.Size(216, 30);
+            this.password_textBox.Size = new System.Drawing.Size(272, 30);
             this.password_textBox.TabIndex = 5;
             this.password_textBox.UseSystemPasswordChar = true;
             // 
@@ -90,10 +90,11 @@ namespace WinFormUI
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Mongolian Baiti", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(159, 12);
+            this.label5.Font = new System.Drawing.Font("Mongolian Baiti", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(139, 12);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 45);
+            this.label5.Size = new System.Drawing.Size(174, 64);
             this.label5.TabIndex = 6;
             this.label5.Text = "Login";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -126,11 +127,11 @@ namespace WinFormUI
             this.create_accountButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.create_accountButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.create_accountButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.create_accountButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.create_accountButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.create_accountButton.ForeColor = System.Drawing.Color.Azure;
-            this.create_accountButton.Location = new System.Drawing.Point(150, 215);
+            this.create_accountButton.Location = new System.Drawing.Point(164, 220);
             this.create_accountButton.Name = "create_accountButton";
-            this.create_accountButton.Size = new System.Drawing.Size(139, 37);
+            this.create_accountButton.Size = new System.Drawing.Size(169, 37);
             this.create_accountButton.TabIndex = 9;
             this.create_accountButton.Text = "Create Account";
             this.create_accountButton.UseVisualStyleBackColor = false;
@@ -146,11 +147,11 @@ namespace WinFormUI
             this.ForgotPass_button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.ForgotPass_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.ForgotPass_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ForgotPass_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForgotPass_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForgotPass_button.ForeColor = System.Drawing.Color.Azure;
-            this.ForgotPass_button.Location = new System.Drawing.Point(118, 241);
+            this.ForgotPass_button.Location = new System.Drawing.Point(125, 256);
             this.ForgotPass_button.Name = "ForgotPass_button";
-            this.ForgotPass_button.Size = new System.Drawing.Size(223, 37);
+            this.ForgotPass_button.Size = new System.Drawing.Size(253, 37);
             this.ForgotPass_button.TabIndex = 10;
             this.ForgotPass_button.Text = "Forgot Username/Password";
             this.ForgotPass_button.UseVisualStyleBackColor = false;
@@ -159,19 +160,24 @@ namespace WinFormUI
             // 
             // login_button
             // 
-            this.login_button.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.login_button.Location = new System.Drawing.Point(266, 305);
+            this.login_button.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
+            this.login_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.login_button.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.login_button.Location = new System.Drawing.Point(298, 337);
             this.login_button.Name = "login_button";
-            this.login_button.Size = new System.Drawing.Size(87, 37);
+            this.login_button.Size = new System.Drawing.Size(112, 49);
             this.login_button.TabIndex = 11;
             this.login_button.Text = "Login";
             this.login_button.UseVisualStyleBackColor = true;
             this.login_button.Click += new System.EventHandler(this.login_button_Click);
+            this.login_button.MouseLeave += new System.EventHandler(this.login_button_MouseLeave);
+            this.login_button.MouseHover += new System.EventHandler(this.login_button_MouseHover);
             // 
             // button4
             // 
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(307, 222);
+            this.button4.Location = new System.Drawing.Point(339, 220);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(71, 23);
             this.button4.TabIndex = 12;

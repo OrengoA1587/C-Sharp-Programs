@@ -181,6 +181,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CiscoEmployeeDB.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Orange_image.png" />
+    <None Include="Resources\Untitled design%2818%29.png" />
     <None Include="Resources\HostCalcTitle2.png" />
     <None Include="Resources\HostCalcTitle.png" />
     <None Include="Resources\BitCalTitle.png" />

@@ -32,7 +32,7 @@ namespace WinFormUI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SubnetCalculatorForm));
             this.label3 = new System.Windows.Forms.Label();
             this.Host = new System.Windows.Forms.Label();
-            this.CalculatorButton = new System.Windows.Forms.Button();
+            this.CalculatorSubnets_Button = new System.Windows.Forms.Button();
             this.subnet_textBox = new System.Windows.Forms.TextBox();
             this.subBits_textBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -107,25 +107,29 @@ namespace WinFormUI
             this.Host.TabIndex = 12;
             this.Host.Text = "Enter Subnets Needed";
             // 
-            // CalculatorButton
+            // CalculatorSubnets_Button
             // 
-            this.CalculatorButton.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.CalculatorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CalculatorButton.Location = new System.Drawing.Point(444, 494);
-            this.CalculatorButton.Margin = new System.Windows.Forms.Padding(4);
-            this.CalculatorButton.Name = "CalculatorButton";
-            this.CalculatorButton.Size = new System.Drawing.Size(116, 37);
-            this.CalculatorButton.TabIndex = 11;
-            this.CalculatorButton.Text = "Calculate";
-            this.CalculatorButton.UseVisualStyleBackColor = true;
-            this.CalculatorButton.Click += new System.EventHandler(this.CalculatorButton_Click);
+            this.CalculatorSubnets_Button.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
+            this.CalculatorSubnets_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CalculatorSubnets_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CalculatorSubnets_Button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.CalculatorSubnets_Button.Location = new System.Drawing.Point(444, 494);
+            this.CalculatorSubnets_Button.Margin = new System.Windows.Forms.Padding(4);
+            this.CalculatorSubnets_Button.Name = "CalculatorSubnets_Button";
+            this.CalculatorSubnets_Button.Size = new System.Drawing.Size(116, 51);
+            this.CalculatorSubnets_Button.TabIndex = 11;
+            this.CalculatorSubnets_Button.Text = "Calculate";
+            this.CalculatorSubnets_Button.UseVisualStyleBackColor = true;
+            this.CalculatorSubnets_Button.Click += new System.EventHandler(this.CalculatorSubnet_Button_Click);
+            this.CalculatorSubnets_Button.MouseLeave += new System.EventHandler(this.CalculatorSubnets_Button_MouseLeave);
+            this.CalculatorSubnets_Button.MouseHover += new System.EventHandler(this.CalculatorSubnets_Button_MouseHover);
             // 
             // subnet_textBox
             // 
             this.subnet_textBox.BackColor = System.Drawing.SystemColors.Window;
             this.subnet_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.subnet_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.subnet_textBox.Location = new System.Drawing.Point(441, 567);
+            this.subnet_textBox.Location = new System.Drawing.Point(292, 540);
             this.subnet_textBox.Margin = new System.Windows.Forms.Padding(4);
             this.subnet_textBox.Name = "subnet_textBox";
             this.subnet_textBox.ReadOnly = true;
@@ -196,7 +200,7 @@ namespace WinFormUI
             // 
             this.hostsNeededtextBox.BackColor = System.Drawing.SystemColors.Window;
             this.hostsNeededtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hostsNeededtextBox.Location = new System.Drawing.Point(454, 314);
+            this.hostsNeededtextBox.Location = new System.Drawing.Point(292, 313);
             this.hostsNeededtextBox.Margin = new System.Windows.Forms.Padding(4);
             this.hostsNeededtextBox.Name = "hostsNeededtextBox";
             this.hostsNeededtextBox.ReadOnly = true;
@@ -217,16 +221,20 @@ namespace WinFormUI
             // 
             // CalculateHostsNeeded_Button
             // 
-            this.CalculateHostsNeeded_Button.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.CalculateHostsNeeded_Button.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
+            this.CalculateHostsNeeded_Button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.CalculateHostsNeeded_Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CalculateHostsNeeded_Button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.CalculateHostsNeeded_Button.Location = new System.Drawing.Point(443, 255);
             this.CalculateHostsNeeded_Button.Margin = new System.Windows.Forms.Padding(4);
             this.CalculateHostsNeeded_Button.Name = "CalculateHostsNeeded_Button";
-            this.CalculateHostsNeeded_Button.Size = new System.Drawing.Size(117, 38);
+            this.CalculateHostsNeeded_Button.Size = new System.Drawing.Size(117, 51);
             this.CalculateHostsNeeded_Button.TabIndex = 21;
             this.CalculateHostsNeeded_Button.Text = "Calculate";
             this.CalculateHostsNeeded_Button.UseVisualStyleBackColor = true;
             this.CalculateHostsNeeded_Button.Click += new System.EventHandler(this.CalculateHostsNeeded_Button_Click);
+            this.CalculateHostsNeeded_Button.MouseLeave += new System.EventHandler(this.CalculateHostsNeeded_Button_MouseLeave);
+            this.CalculateHostsNeeded_Button.MouseHover += new System.EventHandler(this.CalculateHostsNeeded_Button_MouseHover);
             // 
             // label6
             // 
@@ -257,7 +265,7 @@ namespace WinFormUI
             this.panel1.Controls.Add(this.Host);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.hostsNeededtextBox);
-            this.panel1.Controls.Add(this.CalculatorButton);
+            this.panel1.Controls.Add(this.CalculatorSubnets_Button);
             this.panel1.Controls.Add(this.hosts_textBox);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.subBits_textBox);
@@ -548,7 +556,7 @@ namespace WinFormUI
         #endregion
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label Host;
-        private System.Windows.Forms.Button CalculatorButton;
+        private System.Windows.Forms.Button CalculatorSubnets_Button;
         private System.Windows.Forms.TextBox subnet_textBox;
         private System.Windows.Forms.TextBox subBits_textBox;
         private System.Windows.Forms.Label label1;

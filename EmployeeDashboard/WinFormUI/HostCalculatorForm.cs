@@ -36,7 +36,9 @@ namespace WinFormUI
                 }
                 else
                 {
+                    networkBits_textBox.Text = "";
                     MessageBox.Show("Invalid Input!\n\nNetwork bits must be greater than 0 and less than 32!");
+                    
                 }
             }
             catch
@@ -46,6 +48,14 @@ namespace WinFormUI
              
         }
 
-         
+        private void calculateHosts_button_MouseHover(object sender, EventArgs e)
+        {
+            calculateHosts_button.BackgroundImage = Properties.Resources.Orange_image;
+        }
+
+        private void calculateHosts_button_MouseLeave(object sender, EventArgs e)
+        {
+            calculateHosts_button.BackgroundImage = Properties.Resources.Untitled_design_15_;
+        }
     }
 }

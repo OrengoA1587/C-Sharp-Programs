@@ -32,7 +32,7 @@ namespace WinFormUI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HostCalculatorForm));
             this.networkBits_textBox = new System.Windows.Forms.TextBox();
             this.host_textBox = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.calculateHosts_button = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -102,18 +102,22 @@ namespace WinFormUI
             this.host_textBox.Size = new System.Drawing.Size(281, 34);
             this.host_textBox.TabIndex = 2;
             // 
-            // button1
+            // calculateHosts_button
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(356, 156);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 48);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.submit_Click);
+            this.calculateHosts_button.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
+            this.calculateHosts_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.calculateHosts_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculateHosts_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.calculateHosts_button.Location = new System.Drawing.Point(330, 156);
+            this.calculateHosts_button.Margin = new System.Windows.Forms.Padding(4);
+            this.calculateHosts_button.Name = "calculateHosts_button";
+            this.calculateHosts_button.Size = new System.Drawing.Size(126, 48);
+            this.calculateHosts_button.TabIndex = 3;
+            this.calculateHosts_button.Text = "Calculate";
+            this.calculateHosts_button.UseVisualStyleBackColor = true;
+            this.calculateHosts_button.Click += new System.EventHandler(this.submit_Click);
+            this.calculateHosts_button.MouseLeave += new System.EventHandler(this.calculateHosts_button_MouseLeave);
+            this.calculateHosts_button.MouseHover += new System.EventHandler(this.calculateHosts_button_MouseHover);
             // 
             // label2
             // 
@@ -186,7 +190,7 @@ namespace WinFormUI
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.calculateHosts_button);
             this.panel1.Controls.Add(this.host_textBox);
             this.panel1.Controls.Add(this.networkBits_textBox);
             this.panel1.Controls.Add(this.panel2);
@@ -479,7 +483,7 @@ namespace WinFormUI
         #endregion
         private System.Windows.Forms.TextBox networkBits_textBox;
         private System.Windows.Forms.TextBox host_textBox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button calculateHosts_button;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;

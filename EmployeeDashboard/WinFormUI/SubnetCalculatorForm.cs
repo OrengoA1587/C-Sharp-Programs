@@ -17,8 +17,7 @@ namespace WinFormUI
             InitializeComponent();
         }
 
-        private void CalculatorButton_Click(object sender, EventArgs e)
-        {
+        private void CalculatorSubnet_Button_Click(object sender, EventArgs e)        {
 
            
              CalculateSubBits();
@@ -41,6 +40,7 @@ namespace WinFormUI
                 double hostbit = 0;
                 if (hosts > 4294967296 || hosts < 2)
                 {
+                    hosts_textBox.Text = "";
                     MessageBox.Show("Invalid Input! Hosts must be greater than 1 and less than 4,294,967,296.");
                 }
                 else
@@ -72,6 +72,7 @@ namespace WinFormUI
             }
             catch
             {
+                hosts_textBox.Text = "";
                 MessageBox.Show("Invalid Input!");
             }
             
@@ -92,6 +93,7 @@ namespace WinFormUI
                 double hostbit = 0;
                 if (hosts > 4294967296 || hosts < 2)
                 {
+                    subBits_textBox.Text = "";
                     MessageBox.Show("Invalid Input! Hosts must be greater than 1 and less than 4,294,967,296.");
                 }
                 else
@@ -122,11 +124,30 @@ namespace WinFormUI
             }
             catch
             {
+                subBits_textBox.Text = "";
                 MessageBox.Show("Invalid Input!");
             }
             
         }
 
-        
+        private void CalculatorSubnets_Button_MouseHover(object sender, EventArgs e)
+        {
+            CalculatorSubnets_Button.BackgroundImage = Properties.Resources.Orange_image;
+        }
+
+        private void CalculatorSubnets_Button_MouseLeave(object sender, EventArgs e)
+        {
+            CalculatorSubnets_Button.BackgroundImage = Properties.Resources.Untitled_design_15_;
+        }
+
+        private void CalculateHostsNeeded_Button_MouseHover(object sender, EventArgs e)
+        {
+            CalculateHostsNeeded_Button.BackgroundImage = Properties.Resources.Orange_image;
+        }
+
+        private void CalculateHostsNeeded_Button_MouseLeave(object sender, EventArgs e)
+        {
+            CalculateHostsNeeded_Button.BackgroundImage = Properties.Resources.Untitled_design_15_;
+        }
     }
 }

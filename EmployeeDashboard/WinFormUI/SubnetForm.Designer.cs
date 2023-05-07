@@ -39,8 +39,8 @@ namespace WinFormUI
             this.label12 = new System.Windows.Forms.Label();
             this.next_button = new System.Windows.Forms.Button();
             this.nextAddress_textBox = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.networkAddress_textBox = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -59,9 +59,9 @@ namespace WinFormUI
             this.oct_four = new System.Windows.Forms.TextBox();
             this.oct_three = new System.Windows.Forms.TextBox();
             this.oct_two = new System.Windows.Forms.TextBox();
-            this.oct_one = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.oct_one = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -113,8 +113,8 @@ namespace WinFormUI
             this.panel1.Controls.Add(this.label12);
             this.panel1.Controls.Add(this.next_button);
             this.panel1.Controls.Add(this.nextAddress_textBox);
-            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.networkAddress_textBox);
+            this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.label6);
@@ -188,7 +188,7 @@ namespace WinFormUI
             this.subnetNumber_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.subnetNumber_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subnetNumber_textBox.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.subnetNumber_textBox.Location = new System.Drawing.Point(325, 510);
+            this.subnetNumber_textBox.Location = new System.Drawing.Point(258, 505);
             this.subnetNumber_textBox.Multiline = true;
             this.subnetNumber_textBox.Name = "subnetNumber_textBox";
             this.subnetNumber_textBox.ReadOnly = true;
@@ -200,7 +200,7 @@ namespace WinFormUI
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(213, 515);
+            this.label12.Location = new System.Drawing.Point(11, 510);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(105, 30);
@@ -209,16 +209,20 @@ namespace WinFormUI
             // 
             // next_button
             // 
-            this.next_button.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.next_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("next_button.BackgroundImage")));
+            this.next_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.next_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.next_button.Location = new System.Drawing.Point(627, 510);
+            this.next_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.next_button.Location = new System.Drawing.Point(554, 500);
             this.next_button.Margin = new System.Windows.Forms.Padding(4);
             this.next_button.Name = "next_button";
-            this.next_button.Size = new System.Drawing.Size(100, 37);
+            this.next_button.Size = new System.Drawing.Size(114, 51);
             this.next_button.TabIndex = 43;
             this.next_button.Text = "Next";
             this.next_button.UseVisualStyleBackColor = true;
             this.next_button.Click += new System.EventHandler(this.next_button_Click);
+            this.next_button.MouseLeave += new System.EventHandler(this.next_button_MouseLeave);
+            this.next_button.MouseHover += new System.EventHandler(this.next_button_MouseHover);
             // 
             // nextAddress_textBox
             // 
@@ -234,6 +238,20 @@ namespace WinFormUI
             this.nextAddress_textBox.Size = new System.Drawing.Size(535, 41);
             this.nextAddress_textBox.TabIndex = 42;
             // 
+            // networkAddress_textBox
+            // 
+            this.networkAddress_textBox.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.networkAddress_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.networkAddress_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.networkAddress_textBox.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.networkAddress_textBox.Location = new System.Drawing.Point(258, 177);
+            this.networkAddress_textBox.Margin = new System.Windows.Forms.Padding(4);
+            this.networkAddress_textBox.MaxLength = 3;
+            this.networkAddress_textBox.Name = "networkAddress_textBox";
+            this.networkAddress_textBox.ReadOnly = true;
+            this.networkAddress_textBox.Size = new System.Drawing.Size(535, 38);
+            this.networkAddress_textBox.TabIndex = 22;
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -245,20 +263,6 @@ namespace WinFormUI
             this.label11.Size = new System.Drawing.Size(165, 30);
             this.label11.TabIndex = 41;
             this.label11.Text = "Next Address";
-            // 
-            // networkAddress_textBox
-            // 
-            this.networkAddress_textBox.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.networkAddress_textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.networkAddress_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.networkAddress_textBox.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.networkAddress_textBox.Location = new System.Drawing.Point(258, 183);
-            this.networkAddress_textBox.Margin = new System.Windows.Forms.Padding(4);
-            this.networkAddress_textBox.Multiline = true;
-            this.networkAddress_textBox.Name = "networkAddress_textBox";
-            this.networkAddress_textBox.ReadOnly = true;
-            this.networkAddress_textBox.Size = new System.Drawing.Size(535, 41);
-            this.networkAddress_textBox.TabIndex = 29;
             // 
             // pictureBox1
             // 
@@ -309,16 +313,20 @@ namespace WinFormUI
             // 
             // submit_button
             // 
-            this.submit_button.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.submit_button.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("submit_button.BackgroundImage")));
+            this.submit_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.submit_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.submit_button.Location = new System.Drawing.Point(764, 510);
+            this.submit_button.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.submit_button.Location = new System.Drawing.Point(679, 500);
             this.submit_button.Margin = new System.Windows.Forms.Padding(4);
             this.submit_button.Name = "submit_button";
-            this.submit_button.Size = new System.Drawing.Size(100, 37);
+            this.submit_button.Size = new System.Drawing.Size(114, 51);
             this.submit_button.TabIndex = 35;
             this.submit_button.Text = "Submit";
             this.submit_button.UseVisualStyleBackColor = true;
             this.submit_button.Click += new System.EventHandler(this.submit_button_Click);
+            this.submit_button.MouseLeave += new System.EventHandler(this.submit_button_MouseLeave);
+            this.submit_button.MouseHover += new System.EventHandler(this.submit_button_MouseHover);
             // 
             // label4
             // 
@@ -388,9 +396,9 @@ namespace WinFormUI
             this.panel2.Controls.Add(this.oct_four);
             this.panel2.Controls.Add(this.oct_three);
             this.panel2.Controls.Add(this.oct_two);
-            this.panel2.Controls.Add(this.oct_one);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.oct_one);
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel2.Location = new System.Drawing.Point(0, -2);
@@ -499,20 +507,6 @@ namespace WinFormUI
             this.oct_two.TabIndex = 23;
             this.oct_two.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // oct_one
-            // 
-            this.oct_one.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.oct_one.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oct_one.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.oct_one.Location = new System.Drawing.Point(228, 108);
-            this.oct_one.Margin = new System.Windows.Forms.Padding(4);
-            this.oct_one.MaxLength = 3;
-            this.oct_one.Name = "oct_one";
-            this.oct_one.Size = new System.Drawing.Size(103, 38);
-            this.oct_one.TabIndex = 22;
-            this.oct_one.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.oct_one.TextChanged += new System.EventHandler(this.oct_one_TextChanged);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -538,6 +532,19 @@ namespace WinFormUI
             this.label8.Size = new System.Drawing.Size(203, 30);
             this.label8.TabIndex = 39;
             this.label8.Text = "Enter IP Address";
+            // 
+            // oct_one
+            // 
+            this.oct_one.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.oct_one.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.oct_one.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.oct_one.Location = new System.Drawing.Point(229, 108);
+            this.oct_one.Margin = new System.Windows.Forms.Padding(4);
+            this.oct_one.Multiline = true;
+            this.oct_one.Name = "oct_one";
+            this.oct_one.Size = new System.Drawing.Size(103, 38);
+            this.oct_one.TabIndex = 29;
+            this.oct_one.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // menuStrip1
             // 
@@ -814,13 +821,13 @@ namespace WinFormUI
         private System.Windows.Forms.TextBox lastUseable_textBox;
         private System.Windows.Forms.TextBox firstUseable_textBox;
         private System.Windows.Forms.TextBox cidrNotat;
-        private System.Windows.Forms.TextBox networkAddress_textBox;
+        private System.Windows.Forms.TextBox oct_one;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox oct_four;
         private System.Windows.Forms.TextBox oct_three;
         private System.Windows.Forms.TextBox oct_two;
-        private System.Windows.Forms.TextBox oct_one;
+        private System.Windows.Forms.TextBox networkAddress_textBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox1;
