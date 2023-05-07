@@ -27,12 +27,12 @@ namespace WinFormUI
                 double hostBits = 0;
                 double usableHostBits = 0;
 
-                if (netBits < 32 && netBits > 0)
+                if (netBits < 32 && netBits >= 0)
                 {
                     hostBits = 32 - netBits;
 
-                    host_textBox.Text = (Math.Pow(2, hostBits).ToString("#,##0,00"));
-                    usableHost_textBox.Text = (Math.Pow(2, hostBits) - 2).ToString("#,##0,00");
+                    host_textBox.Text = (Math.Pow(2, hostBits).ToString("#,##0"));
+                    usableHost_textBox.Text = (Math.Pow(2, hostBits) - 2).ToString("#,##0");
                 }
                 else
                 {
