@@ -488,7 +488,7 @@ namespace WinFormUI
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::WinFormUI.Properties.Resources.Untitled_design_14_;
-            this.pictureBox1.Location = new System.Drawing.Point(1752, 64);
+            this.pictureBox1.Location = new System.Drawing.Point(1774, 128);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(114, 86);
             this.pictureBox1.TabIndex = 10;
@@ -502,7 +502,7 @@ namespace WinFormUI
             this.cisco_webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.cisco_webBrowser.Name = "cisco_webBrowser";
             this.cisco_webBrowser.ScriptErrorsSuppressed = true;
-            this.cisco_webBrowser.Size = new System.Drawing.Size(1862, 748);
+            this.cisco_webBrowser.Size = new System.Drawing.Size(1836, 683);
             this.cisco_webBrowser.TabIndex = 9;
             // 
             // panel1
@@ -514,9 +514,9 @@ namespace WinFormUI
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.cisco_webBrowser);
-            this.panel1.Location = new System.Drawing.Point(35, 198);
+            this.panel1.Location = new System.Drawing.Point(35, 263);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1866, 752);
+            this.panel1.Size = new System.Drawing.Size(1840, 687);
             this.panel1.TabIndex = 9;
             // 
             // panel2
@@ -529,9 +529,9 @@ namespace WinFormUI
             this.panel2.Controls.Add(this.forward_button);
             this.panel2.Controls.Add(this.url_textBox);
             this.panel2.Controls.Add(this.back_button);
-            this.panel2.Location = new System.Drawing.Point(35, 157);
+            this.panel2.Location = new System.Drawing.Point(37, 220);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1866, 41);
+            this.panel2.Size = new System.Drawing.Size(1840, 41);
             this.panel2.TabIndex = 17;
             // 
             // maximize_button
@@ -579,7 +579,7 @@ namespace WinFormUI
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::WinFormUI.Properties.Resources.Cisco_Dashboard_2_;
-            this.pictureBox2.Location = new System.Drawing.Point(352, 36);
+            this.pictureBox2.Location = new System.Drawing.Point(301, 87);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(1364, 162);
             this.pictureBox2.TabIndex = 21;
