@@ -64,7 +64,29 @@ namespace WinFormUI
         private void GetIncrement(int cidr, int oct1, int oct2, int oct3, int oct4)
         {
 
-             
+            if (cidr == 0)
+            {
+                int incrementNum = 255;
+                if (cidr == 0)
+                {
+                    int octetNum = 0;
+                    octetNum = GetNum.GetNetAddress(incrementNum, oct1);
+                    interval_textBox.Text = incrementNum.ToString();
+                    octet_textBox.Text = "1";
+                    networkAddress_textBox.Text = $"{octetNum}.0.0.0";
+                    firstUseable_textBox.Text = $"{octetNum}.0.0.1";
+                    lastUseable_textBox.Text = $"{(octetNum + incrementNum)}.255.255.254";
+                    broadcastAddress_textBox.Text = $"{(octetNum + incrementNum)}.255.255.255";
+                    if (octetNum + incrementNum > 255)
+                    {
+                        nextAddress_textBox.Text = $"Limit";
+                    }
+                    else
+                    {
+                        nextAddress_textBox.Text = $"Limit";
+                    }
+                }
+            }
             if (cidr == 1 || cidr == 9 || cidr == 17 || cidr == 25)
             {
                 

@@ -73,6 +73,16 @@ namespace WinFormUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CalcImage4 {
+            get {
+                object obj = ResourceManager.GetObject("CalcImage4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Calculator_Image {
             get {
                 object obj = ResourceManager.GetObject("Calculator_Image", resourceCulture);
@@ -86,6 +96,16 @@ namespace WinFormUI.Properties {
         internal static System.Drawing.Bitmap Calculator_image2 {
             get {
                 object obj = ResourceManager.GetObject("Calculator_image2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CalculatorImage3 {
+            get {
+                object obj = ResourceManager.GetObject("CalculatorImage3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +143,29 @@ namespace WinFormUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CiscogreenLogo {
+            get {
+                object obj = ResourceManager.GetObject("CiscogreenLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CiscoLogo {
             get {
                 object obj = ResourceManager.GetObject("CiscoLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CiscoOrangeLogo {
+            get {
+                object obj = ResourceManager.GetObject("CiscoOrangeLogo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +246,26 @@ namespace WinFormUI.Properties {
         internal static System.Drawing.Bitmap Logout_image {
             get {
                 object obj = ResourceManager.GetObject("Logout_image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logout2 {
+            get {
+                object obj = ResourceManager.GetObject("Logout2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Logout3 {
+            get {
+                object obj = ResourceManager.GetObject("Logout3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +396,16 @@ namespace WinFormUI.Properties {
         internal static System.Drawing.Bitmap Untitled_design_18_ {
             get {
                 object obj = ResourceManager.GetObject("Untitled design(18)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Untitled_design_19_ {
+            get {
+                object obj = ResourceManager.GetObject("Untitled design(19)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

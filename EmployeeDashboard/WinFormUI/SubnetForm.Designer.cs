@@ -61,7 +61,6 @@ namespace WinFormUI
             this.oct_two = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.oct_one = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -92,6 +91,7 @@ namespace WinFormUI
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oct_one = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -388,17 +388,17 @@ namespace WinFormUI
             this.panel2.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.cidrNotat);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.oct_four);
             this.panel2.Controls.Add(this.oct_three);
             this.panel2.Controls.Add(this.oct_two);
+            this.panel2.Controls.Add(this.oct_one);
+            this.panel2.Controls.Add(this.pictureBox2);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.oct_one);
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel2.Location = new System.Drawing.Point(0, -2);
@@ -422,7 +422,7 @@ namespace WinFormUI
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(829, 110);
+            this.label10.Location = new System.Drawing.Point(825, 103);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(155, 30);
@@ -434,7 +434,7 @@ namespace WinFormUI
             this.cidrNotat.BackColor = System.Drawing.SystemColors.HighlightText;
             this.cidrNotat.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cidrNotat.ForeColor = System.Drawing.Color.Red;
-            this.cidrNotat.Location = new System.Drawing.Point(1000, 108);
+            this.cidrNotat.Location = new System.Drawing.Point(1000, 97);
             this.cidrNotat.Margin = new System.Windows.Forms.Padding(4);
             this.cidrNotat.MaxLength = 2;
             this.cidrNotat.Name = "cidrNotat";
@@ -473,7 +473,7 @@ namespace WinFormUI
             this.oct_four.BackColor = System.Drawing.SystemColors.HighlightText;
             this.oct_four.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oct_four.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.oct_four.Location = new System.Drawing.Point(660, 110);
+            this.oct_four.Location = new System.Drawing.Point(658, 97);
             this.oct_four.Margin = new System.Windows.Forms.Padding(4);
             this.oct_four.MaxLength = 3;
             this.oct_four.Name = "oct_four";
@@ -486,7 +486,7 @@ namespace WinFormUI
             this.oct_three.BackColor = System.Drawing.SystemColors.HighlightText;
             this.oct_three.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oct_three.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.oct_three.Location = new System.Drawing.Point(516, 110);
+            this.oct_three.Location = new System.Drawing.Point(514, 98);
             this.oct_three.Margin = new System.Windows.Forms.Padding(4);
             this.oct_three.MaxLength = 3;
             this.oct_three.Name = "oct_three";
@@ -499,7 +499,7 @@ namespace WinFormUI
             this.oct_two.BackColor = System.Drawing.SystemColors.HighlightText;
             this.oct_two.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.oct_two.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.oct_two.Location = new System.Drawing.Point(372, 108);
+            this.oct_two.Location = new System.Drawing.Point(370, 100);
             this.oct_two.Margin = new System.Windows.Forms.Padding(4);
             this.oct_two.MaxLength = 3;
             this.oct_two.Name = "oct_two";
@@ -532,20 +532,6 @@ namespace WinFormUI
             this.label8.Size = new System.Drawing.Size(203, 30);
             this.label8.TabIndex = 39;
             this.label8.Text = "Enter IP Address";
-            // 
-            // oct_one
-            // 
-            this.oct_one.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.oct_one.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oct_one.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.oct_one.Location = new System.Drawing.Point(229, 108);
-            this.oct_one.Margin = new System.Windows.Forms.Padding(4);
-            this.oct_one.MaxLength = 3;
-            this.oct_one.Multiline = true;
-            this.oct_one.Name = "oct_one";
-            this.oct_one.Size = new System.Drawing.Size(103, 38);
-            this.oct_one.TabIndex = 29;
-            this.oct_one.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // menuStrip1
             // 
@@ -782,6 +768,20 @@ namespace WinFormUI
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(174, 30);
             this.aboutToolStripMenuItem.Text = "&About...";
             // 
+            // oct_one
+            // 
+            this.oct_one.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.oct_one.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.oct_one.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.oct_one.Location = new System.Drawing.Point(229, 100);
+            this.oct_one.Margin = new System.Windows.Forms.Padding(4);
+            this.oct_one.MaxLength = 3;
+            this.oct_one.Multiline = true;
+            this.oct_one.Name = "oct_one";
+            this.oct_one.Size = new System.Drawing.Size(103, 38);
+            this.oct_one.TabIndex = 43;
+            this.oct_one.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // SubnetForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -822,7 +822,6 @@ namespace WinFormUI
         private System.Windows.Forms.TextBox lastUseable_textBox;
         private System.Windows.Forms.TextBox firstUseable_textBox;
         private System.Windows.Forms.TextBox cidrNotat;
-        private System.Windows.Forms.TextBox oct_one;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox oct_four;
@@ -873,5 +872,6 @@ namespace WinFormUI
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox oct_one;
     }
 }

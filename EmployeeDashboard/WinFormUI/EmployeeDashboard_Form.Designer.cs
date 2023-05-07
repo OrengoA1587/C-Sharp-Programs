@@ -51,6 +51,10 @@ namespace WinFormUI
             this.pasteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
             this.selectAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.calculatorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.subnetCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.subnetCalculatorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.bitCalculatorToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.customizeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,10 +64,6 @@ namespace WinFormUI
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.calculatorsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.subnetCalculatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.subnetCalculatorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bitCalculatorToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.logoutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.go_button = new System.Windows.Forms.Button();
@@ -94,9 +94,9 @@ namespace WinFormUI
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.editToolStripMenuItem,
+            this.calculatorsToolStripMenuItem,
             this.toolsToolStripMenuItem,
             this.helpToolStripMenuItem,
-            this.calculatorsToolStripMenuItem,
             this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -124,15 +124,17 @@ namespace WinFormUI
             // 
             // newToolStripMenuItem
             // 
+            this.newToolStripMenuItem.Enabled = false;
             this.newToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("newToolStripMenuItem.Image")));
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.newToolStripMenuItem.Text = "&New";
             // 
             // openToolStripMenuItem
             // 
+            this.openToolStripMenuItem.Enabled = false;
             this.openToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("openToolStripMenuItem.Image")));
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
@@ -147,6 +149,7 @@ namespace WinFormUI
             // 
             // saveToolStripMenuItem
             // 
+            this.saveToolStripMenuItem.Enabled = false;
             this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
@@ -156,6 +159,7 @@ namespace WinFormUI
             // 
             // saveAsToolStripMenuItem
             // 
+            this.saveAsToolStripMenuItem.Enabled = false;
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.saveAsToolStripMenuItem.Text = "Save &As";
@@ -173,6 +177,7 @@ namespace WinFormUI
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
             this.printToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.printToolStripMenuItem.Text = "&Print";
+            this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // printPreviewToolStripMenuItem
             // 
@@ -181,6 +186,7 @@ namespace WinFormUI
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
             this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
             this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
+            this.printPreviewToolStripMenuItem.Click += new System.EventHandler(this.printPreviewToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
@@ -189,8 +195,9 @@ namespace WinFormUI
             // 
             // exitToolStripMenuItem
             // 
+            this.exitToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Logout3;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(217, 30);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -205,10 +212,12 @@ namespace WinFormUI
             this.pasteToolStripMenuItem,
             this.toolStripSeparator4,
             this.selectAllToolStripMenuItem});
+            this.editToolStripMenuItem.Enabled = false;
             this.editToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(59, 29);
             this.editToolStripMenuItem.Text = "&Edit";
+            this.editToolStripMenuItem.Visible = false;
             // 
             // undoToolStripMenuItem
             // 
@@ -267,15 +276,53 @@ namespace WinFormUI
             this.selectAllToolStripMenuItem.Size = new System.Drawing.Size(216, 30);
             this.selectAllToolStripMenuItem.Text = "Select &All";
             // 
+            // calculatorsToolStripMenuItem
+            // 
+            this.calculatorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.subnetCalculatorToolStripMenuItem,
+            this.subnetCalculatorToolStripMenuItem1,
+            this.bitCalculatorToolStripMenuItem2});
+            this.calculatorsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calculatorsToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.CalcImage4;
+            this.calculatorsToolStripMenuItem.Name = "calculatorsToolStripMenuItem";
+            this.calculatorsToolStripMenuItem.Size = new System.Drawing.Size(144, 29);
+            this.calculatorsToolStripMenuItem.Text = "Calculators";
+            // 
+            // subnetCalculatorToolStripMenuItem
+            // 
+            this.subnetCalculatorToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Untitled_design_14_;
+            this.subnetCalculatorToolStripMenuItem.Name = "subnetCalculatorToolStripMenuItem";
+            this.subnetCalculatorToolStripMenuItem.Size = new System.Drawing.Size(254, 30);
+            this.subnetCalculatorToolStripMenuItem.Text = "Subnet Calculator";
+            this.subnetCalculatorToolStripMenuItem.Click += new System.EventHandler(this.subnetCalculatorToolStripMenuItem_Click);
+            // 
+            // subnetCalculatorToolStripMenuItem1
+            // 
+            this.subnetCalculatorToolStripMenuItem1.Image = global::WinFormUI.Properties.Resources.CiscoOrangeLogo;
+            this.subnetCalculatorToolStripMenuItem1.Name = "subnetCalculatorToolStripMenuItem1";
+            this.subnetCalculatorToolStripMenuItem1.Size = new System.Drawing.Size(254, 30);
+            this.subnetCalculatorToolStripMenuItem1.Text = "Host Calculator";
+            this.subnetCalculatorToolStripMenuItem1.Click += new System.EventHandler(this.hostCalculatorToolStripMenuItem1_Click);
+            // 
+            // bitCalculatorToolStripMenuItem2
+            // 
+            this.bitCalculatorToolStripMenuItem2.Image = global::WinFormUI.Properties.Resources.CiscogreenLogo;
+            this.bitCalculatorToolStripMenuItem2.Name = "bitCalculatorToolStripMenuItem2";
+            this.bitCalculatorToolStripMenuItem2.Size = new System.Drawing.Size(254, 30);
+            this.bitCalculatorToolStripMenuItem2.Text = "Bits Calculator";
+            this.bitCalculatorToolStripMenuItem2.Click += new System.EventHandler(this.bitCalculatorToolStripMenuItem2_Click_1);
+            // 
             // toolsToolStripMenuItem
             // 
             this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.customizeToolStripMenuItem,
             this.optionsToolStripMenuItem});
+            this.toolsToolStripMenuItem.Enabled = false;
             this.toolsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(75, 29);
             this.toolsToolStripMenuItem.Text = "&Tools";
+            this.toolsToolStripMenuItem.Visible = false;
             // 
             // customizeToolStripMenuItem
             // 
@@ -298,88 +345,60 @@ namespace WinFormUI
             this.toolStripSeparator5,
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.helpToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Untitled_design_19_;
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(66, 29);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(86, 29);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // contentsToolStripMenuItem
             // 
+            this.contentsToolStripMenuItem.Enabled = false;
             this.contentsToolStripMenuItem.Name = "contentsToolStripMenuItem";
-            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
+            this.contentsToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.contentsToolStripMenuItem.Text = "&Contents";
             // 
             // indexToolStripMenuItem
             // 
+            this.indexToolStripMenuItem.Enabled = false;
             this.indexToolStripMenuItem.Name = "indexToolStripMenuItem";
-            this.indexToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
+            this.indexToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.indexToolStripMenuItem.Text = "&Index";
             // 
             // searchToolStripMenuItem
             // 
+            this.searchToolStripMenuItem.Enabled = false;
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.searchToolStripMenuItem.Text = "&Search";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(174, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(221, 6);
             // 
             // aboutToolStripMenuItem
             // 
+            this.aboutToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Untitled_design_19_;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(177, 30);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.aboutToolStripMenuItem.Text = "&About...";
-            // 
-            // calculatorsToolStripMenuItem
-            // 
-            this.calculatorsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.subnetCalculatorToolStripMenuItem,
-            this.subnetCalculatorToolStripMenuItem1,
-            this.bitCalculatorToolStripMenuItem2});
-            this.calculatorsToolStripMenuItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calculatorsToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Calculator_image2;
-            this.calculatorsToolStripMenuItem.Name = "calculatorsToolStripMenuItem";
-            this.calculatorsToolStripMenuItem.Size = new System.Drawing.Size(144, 29);
-            this.calculatorsToolStripMenuItem.Text = "Calculators";
-            // 
-            // subnetCalculatorToolStripMenuItem
-            // 
-            this.subnetCalculatorToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Untitled_design_14_;
-            this.subnetCalculatorToolStripMenuItem.Name = "subnetCalculatorToolStripMenuItem";
-            this.subnetCalculatorToolStripMenuItem.Size = new System.Drawing.Size(254, 30);
-            this.subnetCalculatorToolStripMenuItem.Text = "Subnet Calculator";
-            this.subnetCalculatorToolStripMenuItem.Click += new System.EventHandler(this.subnetCalculatorToolStripMenuItem_Click);
-            // 
-            // subnetCalculatorToolStripMenuItem1
-            // 
-            this.subnetCalculatorToolStripMenuItem1.Name = "subnetCalculatorToolStripMenuItem1";
-            this.subnetCalculatorToolStripMenuItem1.Size = new System.Drawing.Size(254, 30);
-            this.subnetCalculatorToolStripMenuItem1.Text = "Host Calculator";
-            this.subnetCalculatorToolStripMenuItem1.Click += new System.EventHandler(this.hostCalculatorToolStripMenuItem1_Click);
-            // 
-            // bitCalculatorToolStripMenuItem2
-            // 
-            this.bitCalculatorToolStripMenuItem2.Name = "bitCalculatorToolStripMenuItem2";
-            this.bitCalculatorToolStripMenuItem2.Size = new System.Drawing.Size(254, 30);
-            this.bitCalculatorToolStripMenuItem2.Text = "Bits Calculator";
-            this.bitCalculatorToolStripMenuItem2.Click += new System.EventHandler(this.bitCalculatorToolStripMenuItem2_Click_1);
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.logoutToolStripMenuItem});
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.toolStripMenuItem1.Image = global::WinFormUI.Properties.Resources.Logout_image;
+            this.toolStripMenuItem1.Image = global::WinFormUI.Properties.Resources.Logout3;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(106, 29);
             this.toolStripMenuItem1.Text = "Logout";
             // 
             // logoutToolStripMenuItem
             // 
-            this.logoutToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Logout_image;
+            this.logoutToolStripMenuItem.Image = global::WinFormUI.Properties.Resources.Logout3;
             this.logoutToolStripMenuItem.Name = "logoutToolStripMenuItem";
-            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(158, 30);
+            this.logoutToolStripMenuItem.Size = new System.Drawing.Size(224, 30);
             this.logoutToolStripMenuItem.Text = "Logout";
             this.logoutToolStripMenuItem.Click += new System.EventHandler(this.logoutToolStripMenuItem_Click);
             // 
@@ -477,12 +496,13 @@ namespace WinFormUI
             // 
             // cisco_webBrowser
             // 
+            this.cisco_webBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
             this.cisco_webBrowser.Location = new System.Drawing.Point(0, 0);
             this.cisco_webBrowser.MaximumSize = new System.Drawing.Size(1942, 750);
             this.cisco_webBrowser.MinimumSize = new System.Drawing.Size(20, 20);
             this.cisco_webBrowser.Name = "cisco_webBrowser";
             this.cisco_webBrowser.ScriptErrorsSuppressed = true;
-            this.cisco_webBrowser.Size = new System.Drawing.Size(1942, 750);
+            this.cisco_webBrowser.Size = new System.Drawing.Size(1862, 748);
             this.cisco_webBrowser.TabIndex = 9;
             // 
             // panel1
@@ -572,7 +592,7 @@ namespace WinFormUI
             this.AutoSize = true;
             this.BackgroundImage = global::WinFormUI.Properties.Resources.Untitled_design_15_;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1942, 1055);
+            this.ClientSize = new System.Drawing.Size(1942, 982);
             this.Controls.Add(this.x_Button);
             this.Controls.Add(this.maximize_button);
             this.Controls.Add(this.pictureBox1);

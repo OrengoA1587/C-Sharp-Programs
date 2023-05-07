@@ -10,6 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using System.Security.Permissions;
+using System.Drawing.Printing;
+
 namespace WinFormUI
 {
     public partial class EmployeeDashboard_Form : Form
@@ -124,6 +126,34 @@ namespace WinFormUI
         private void url_textBox_MouseEnter(object sender, EventArgs e)
         {
             cisco_webBrowser.Navigate(url_textBox.Text);
+        }
+
+        private void printPreviewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PrintDialog print = new PrintDialog();
+            PrintDocument printDocument = new PrintDocument();
+            print.Document = printDocument;
+            print.AllowSelection = true;
+
+            print.AllowSomePages = true; ;
+            print.ShowDialog();
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PrintDialog print = new PrintDialog();
+            PrintDocument printDocument = new PrintDocument();
+            print.Document = printDocument;
+            print.AllowSelection = true;
+
+            print.AllowSomePages = true; ;
+            print.ShowDialog();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutForm about = new AboutForm();
+            about.ShowDialog();
         }
     }
 }

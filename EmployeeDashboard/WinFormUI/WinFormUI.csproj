@@ -65,6 +65,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AccountCreationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     <Compile Include="SubnetForm.Designer.cs">
       <DependentUpon>SubnetForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AccountCreationForm.resx">
       <DependentUpon>AccountCreationForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -181,6 +190,13 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>CiscoEmployeeDB.mdf</DependentUpon>
     </Content>
+    <None Include="Resources\Logout3.png" />
+    <None Include="Resources\Logout2.png" />
+    <None Include="Resources\CalcImage4.png" />
+    <None Include="Resources\CalculatorImage3.png" />
+    <None Include="Resources\Untitled design%2819%29.png" />
+    <None Include="Resources\CiscogreenLogo.png" />
+    <None Include="Resources\CiscoOrangeLogo.png" />
     <None Include="Resources\Orange_image.png" />
     <None Include="Resources\Untitled design%2818%29.png" />
     <None Include="Resources\HostCalcTitle2.png" />
