@@ -18,10 +18,7 @@ namespace WinFormUI
             subnetNumber_textBox.Text = "1";
         }
         private void submit_button_Click(object sender, EventArgs e)
-        {
-            
-
-            
+        {            
             try
             {
                 int oct1 = int.Parse(oct_one.Text);
@@ -29,11 +26,10 @@ namespace WinFormUI
                 int oct3 = int.Parse(oct_three.Text);
                 int oct4 = int.Parse(oct_four.Text);
                 int cidr = int.Parse(cidrNotat.Text);
-
                 int keyNum = GetCidr(cidr);
+
                 subnetNumber_textBox.Text = "1";
-                if (oct_one.Text.Length <= 3 && oct_one.Text.Length >= 0 && oct_two.Text.Length <= 3 && oct_two.Text.Length >= 0
-                    && oct_three.Text.Length <= 3 && oct_three.Text.Length >= 0 && oct_four.Text.Length <= 3 && oct_four.Text.Length >= 0)
+                if (oct1 <= 255 && oct1 >= 0 && oct2 <= 255 && oct2 >= 0 && oct3 <= 255 && oct3 >= 0 && oct4 <= 255 && oct4 >= 0)
                 {
                     
                     GetNetAddress(cidr, oct1, oct2, oct3, oct4);
@@ -46,7 +42,7 @@ namespace WinFormUI
             }
             catch
             {
-                MessageBox.Show("Invalid Input1111!");
+                MessageBox.Show("Invalid Input!");
             }
 
         }
@@ -1037,28 +1033,7 @@ namespace WinFormUI
 
                     int keyNum = GetCidr(cidr);
                     GetNetAddress(cidr, oct1, oct2, oct3, oct4);
-                    //if (cidrNotat.Text == "9" && int.Parse(CheckBroadcast[0]) < 255 && int.Parse(CheckBroadcast[1]) == 255)
-                    //{
-                    //    int oct1 = int.Parse(CheckBroadcast[0]) + 1;
-                    //    int oct2 = 0;
-                    //    int oct3 = 0;
-                    //    int oct4 = 0;
-                    //    int cidr = int.Parse(cidrNotat.Text);
-                    //     int keyNum = GetCidr(cidr);
-                    //    GetNetAddress(cidr, oct1, oct2, oct3, oct4);
-                    //}
-                     
-                    //else
-                    //{
-                    //    int oct1 = int.Parse(sepNextAddress[0]);
-                    //    int oct2 = int.Parse(sepNextAddress[1]);
-                    //    int oct3 = int.Parse(sepNextAddress[2]);
-                    //    int oct4 = int.Parse(sepNextAddress[3]);
-                    //    int cidr = int.Parse(cidrNotat.Text);
-
-                    //    int keyNum = GetCidr(cidr);
-                    //    GetNetAddress(cidr, oct1, oct2, oct3, oct4);
-                    //}
+                    
                      
                 }
                 else
@@ -1071,9 +1046,7 @@ namespace WinFormUI
             {
                 MessageBox.Show("Invalid Input!");
             }
-        }
-
-        
+        }      
          
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1112,58 +1085,6 @@ namespace WinFormUI
         {
             next_button.BackgroundImage = Properties.Resources.Untitled_design_15_;
         }
-
-
-
-
-
-
-
-        //private void BroadcastDetermination(int octetSet)
-        //{
-        //    string[] CheckBroadcast = broadcastAddress_textBox.Text.Split('.');
-        //    if (octetSet == 2)
-        //    {
-        //        if (int.Parse(CheckBroadcast[0]) < 255)
-        //        {
-        //            int oct1 = int.Parse(CheckBroadcast[0])+ 1;
-        //            int oct2 = 0;
-        //            int oct3 = 0;
-        //            int oct4 = 0;
-        //            int cidr = int.Parse(cidrNotat.Text);
-        //            MessageBox.Show(oct1.ToString());
-        //            int keyNum = GetCidr(cidr);
-        //            GetNetAddress(cidr, oct1, oct2, oct3, oct4);
-        //        }
-        //    }
-        //}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

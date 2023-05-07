@@ -540,6 +540,7 @@ namespace WinFormUI
             this.oct_one.ForeColor = System.Drawing.SystemColors.MenuText;
             this.oct_one.Location = new System.Drawing.Point(229, 108);
             this.oct_one.Margin = new System.Windows.Forms.Padding(4);
+            this.oct_one.MaxLength = 3;
             this.oct_one.Multiline = true;
             this.oct_one.Name = "oct_one";
             this.oct_one.Size = new System.Drawing.Size(103, 38);
